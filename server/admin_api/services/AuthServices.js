@@ -52,7 +52,7 @@ class AuthServices{
 	};
  
 	async signup(user){
-		const userRole = await Role.findOne({value: "USER"});
+		const userRole = await Role.findOne({value: "ADMIN"});
 		const createdUser = await User.create({...user, roles: [userRole.value]});
 		return createdUser;
 	}

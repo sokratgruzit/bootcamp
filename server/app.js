@@ -28,8 +28,8 @@ app.use(history({
 
 
 const PORT =  process.env.PORT;
-const DB_URL = 'mongodb+srv://bootcamp:hy65Cb89P@bootcamp.i4bcb.mongodb.net/bootcamp?retryWrites=true&w=majority';
-
+//const DB_URL = 'mongodb+srv://bootcamp:hy65Cb89P@bootcamp.i4bcb.mongodb.net/bootcamp?retryWrites=true&w=majority';
+const DB_URL="mongodb+srv://sokrat:lalala12345@cluster0.x2cvw.mongodb.net/catan?retryWrites=true&w=majority";
 async function start(){
 	try{
 		mongoose.connect(DB_URL, {
