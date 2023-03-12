@@ -12,10 +12,10 @@ class FileService{
 			    throw Error('Invalid Image Extension');
 			}
 			const fileName = uuid.v4() + extensionName; 
-            const filePath = path.resolve('public'  + folder , fileName);
+            const filePath = path.resolve('client/public'  + folder , fileName);
             // if folder not exist, create
-            if (!fs.existsSync('public'  + folder)){
-    			fs.mkdirSync('public'  + folder, { recursive: true });
+            if (!fs.existsSync('client/public'  + folder)){
+    			fs.mkdirSync('client/public'  + folder, { recursive: true });
 			}
             file.mv(filePath);
             const url = folder + '/' + fileName;
