@@ -3,7 +3,6 @@ const ImageServices = require("../services/ImageServices");
 class ImageController {
   async create(req, res) {
     try {
-      console.log(req);
       const result = ImageServices.create(req.files.image, req.body.folder);
       res.status(200).json(result);
     } catch (e) {

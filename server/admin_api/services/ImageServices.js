@@ -18,7 +18,7 @@ class FileService {
         fs.mkdirSync("server/uploads" + folder, { recursive: true });
       }
       file.mv(filePath);
-      const url = folder + "/" + fileName;
+      const url = "/image" + folder + "/" + fileName;
       return {
         path: url,
         name: fileName,
@@ -30,7 +30,7 @@ class FileService {
   }
 
   destroy(url) {
-    const filePath = path.resolve("public" + url);
+    const filePath = path.resolve("server/uploads" + url);
     fs.exists(filePath, function (exists) {
       if (exists) {
         fs.unlink(filePath, function (err) {

@@ -45,20 +45,27 @@
             <div class="swiper-wrapper">
               <div
                 class="swiper-slide"
-                v-for="(slide, thumbIndex) in _.get(slides, [selectedCategory, 'picArr'])"
+                v-for="(slide, thumbIndex) in _.get(slides, [
+                  selectedCategory,
+                  'picArr',
+                ])"
                 :key="thumbIndex"
                 @click="galIndex = thumbIndex"
               >
-                <img :src="$PUBLIC + _.get(slide, 'image.path')" class="slide-img" :alt="_.get(slide, 'image.alt')" />
+                <img
+                  :src="$PUBLIC + _.get(slide, 'image.path')"
+                  class="slide-img"
+                  :alt="_.get(slide, 'image.alt')"
+                />
 
                 <h3 class="swiper__ttl">
-                  {{ _.get(slide, 'teaser') }}
+                  {{ _.get(slide, "teaser") }}
                 </h3>
               </div>
             </div>
           </div>
         </div>
-        
+
         <img :src="require('@/assets/img/elem-1.png')" alt="" class="elem-1" />
         <img :src="require('@/assets/img/elem-2.png')" alt="" class="elem-2" />
         <img :src="require('@/assets/img/elem-3.png')" alt="" class="elem-3" />
@@ -469,28 +476,27 @@ export default {
     };
   },
   computed: {
-    slides(){
+    slides() {
       return this.$store.getters.getHistory;
     },
   },
   watch: {
     slides: {
       immediate: true,
-      handler: function(){
+      handler: function () {
         let _this = this;
-        if(this.slides && _.size(this.slides) > 0){
-          this.slides.forEach(function(slide){
-            if(_.size(slide.picArr) > 0){
-              slide.picArr.forEach(function(item){
+        if (this.slides && _.size(this.slides) > 0) {
+          this.slides.forEach(function (slide) {
+            if (_.size(slide.picArr) > 0) {
+              slide.picArr.forEach(function (item) {
                 item.src = _this.$PUBLIC + item.image.path;
-              })
+              });
             }
-          })
+          });
         }
-      }
-    }
+      },
+    },
   },
-  
 };
 </script>
 
