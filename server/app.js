@@ -6,6 +6,8 @@ const cors = require("cors");
 const cors_options = require("./config/cors_options");
 const credentials = require("./middleware/credentials");
 const history = require("connect-history-api-fallback");
+const path = require("path");
+const fs = require("fs");
 require("dotenv").config();
 
 const admin = require("./admin_api/routes/router.js");
@@ -18,10 +20,11 @@ const app = express();
 app.use(express.static("api/public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(credentials);
 app.use(fileUpload());
 app.use(cookieParser());
 app.use(cors(cors_options));
+app.use(credentials);
+
 app.use(
   history({
     index: "/index.html",
@@ -31,7 +34,7 @@ app.use(
 const PORT = process.env.PORT;
 //const DB_URL = 'mongodb+srv://bootcamp:hy65Cb89P@bootcamp.i4bcb.mongodb.net/bootcamp?retryWrites=true&w=majority';
 const DB_URL =
-  "mongodb+srv://sokrat:lalala12345@cluster0.x2cvw.mongodb.net/catan?retryWrites=true&w=majority";
+  "mongodb+srv://explorer2021:Marmara88@explorer.hpupayi.mongodb.net/hypercubic?retryWrites=true&w=majority";
 async function start() {
   try {
     mongoose.connect(DB_URL, {
@@ -50,6 +53,21 @@ async function start() {
 start();
 
 /*routes*/
+app.get("/image/:folder/:imageName", (req, res) => {
+  try {
+    let imgPath = path.join(
+      __dirname,
+      `./uploads/${req.params.folder}/${req.params.imageName}`
+    );
+    if (fs.existsSync(imgPath)) {
+      res.status(200).sendFile(imgPath);
+    } else {
+      res.status(400).send(null);
+    }
+  } catch (err) {
+    res.status(400).send(null);
+  }
+});
 app.use("/api/client", client);
 app.use("/api/admin", admin);
 app.use("/api/auth", auth);
