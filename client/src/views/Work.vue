@@ -1,9 +1,9 @@
 <template>
   <div class="work-container">
     <div class="container">
-      <h1 class="ttl">
-        <span>Work</span>
-      </h1>
+      <div class="top">
+        <h1>Work</h1>
+      </div>
     </div>
   </div>
 </template>
@@ -24,9 +24,28 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
+<style lang="css" scoped>
 
-@media (max-width: 767px) {
+.work-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
 
+.top h1 {
+  font-size: 250px;
+  opacity: 0.2;
+}
+
+/* 
+@media(max-width: 1900px){
+} */
+@media(max-width: 1300px){
+}
+@media(max-width: 1023px){
+}
+@media(max-width: 767px){
 }
 </style>
