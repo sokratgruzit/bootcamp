@@ -50,6 +50,11 @@ const routes = [
     name: "Quizz",
     component: load("Tests"),
   },
+  {
+    path: "/work",
+    name: "Work",
+    component: load("Work"),
+  },
   //end not translatable
   {
     path: "*",
