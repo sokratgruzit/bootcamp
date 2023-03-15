@@ -202,7 +202,37 @@ export default {
 @media (max-width: 1300px) {
 }
 @media (max-width: 1023px) {
+  .top {
+    width: 100%;
+  }
+  .top-item {
+    margin: -40px 100px 0px 0px;
+  }
 }
 @media (max-width: 767px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-item {
+    margin: 100px 0px 0px 0px;
+  }
+
+  .item {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  .item-title {
+    margin-top: 30px;
+    width: 100%;
+    height: 275px;
+  }
+  .item-image {
+    width: 100%;
+    padding-top: 80%;
+  }
+
 }
 </style>
