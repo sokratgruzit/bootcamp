@@ -39,12 +39,132 @@
             </router-link>
           </div>
         </div>
+        <div class="bottom-item">
+          <div class="container">
+            <router-link to="/">
+              <div class="item">
+                <div class="item-title">
+                  <h2 class="title">Dirty Catan</h2>
+                  <span class="item-index">01</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    alt="project image"
+                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+                  />
+                </div>
+                <div class="tags">
+                  <p>Technologies:</p>
+                  <div class="tags-inner">
+                    <span class="tag"> React </span>
+                    <span class="tag"> Javascript </span>
+                    <span class="tag"> Vue </span>
+                    <span class="tag"> Git </span>
+                    <span class="tag"> Html </span>
+                    <span class="tag"> Css </span>
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+        <div class="bottom-item">
+          <div class="container">
+            <router-link to="/">
+              <div class="item">
+                <div class="item-title">
+                  <h2 class="title">Dirty Catan</h2>
+                  <span class="item-index">01</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    alt="project image"
+                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+                  />
+                </div>
+                <div class="tags">
+                  <p>Technologies:</p>
+                  <div class="tags-inner">
+                    <span class="tag"> React </span>
+                    <span class="tag"> Javascript </span>
+                    <span class="tag"> Vue </span>
+                    <span class="tag"> Git </span>
+                    <span class="tag"> Html </span>
+                    <span class="tag"> Css </span>
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+        <div class="bottom-item">
+          <div class="container">
+            <router-link to="/">
+              <div class="item">
+                <div class="item-title">
+                  <h2 class="title">Dirty Catan</h2>
+                  <span class="item-index">01</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    alt="project image"
+                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+                  />
+                </div>
+                <div class="tags">
+                  <p>Technologies:</p>
+                  <div class="tags-inner">
+                    <span class="tag"> React </span>
+                    <span class="tag"> Javascript </span>
+                    <span class="tag"> Vue </span>
+                    <span class="tag"> Git </span>
+                    <span class="tag"> Html </span>
+                    <span class="tag"> Css </span>
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
+        <div class="bottom-item">
+          <div class="container">
+            <router-link to="/">
+              <div class="item">
+                <div class="item-title">
+                  <h2 class="title">Dirty Catan</h2>
+                  <span class="item-index">01</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    alt="project image"
+                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+                  />
+                </div>
+                <div class="tags">
+                  <p>Technologies:</p>
+                  <div class="tags-inner">
+                    <span class="tag"> React </span>
+                    <span class="tag"> Javascript </span>
+                    <span class="tag"> Vue </span>
+                    <span class="tag"> Git </span>
+                    <span class="tag"> Html </span>
+                    <span class="tag"> Css </span>
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="contact">
+      <ContactBox />
     </div>
   </div>
 </template>
 
 <script>
+import ContactBox from "../components/ContactBox.vue";
 import BecomeMember from "../components/parts/BecomeMember.vue";
 
 export default {
@@ -54,7 +174,7 @@ export default {
   },
   mounted() {},
   methods: {},
-  components: { BecomeMember },
+  components: { BecomeMember, ContactBox },
 };
 </script>
 <style lang="scss" scoped>
