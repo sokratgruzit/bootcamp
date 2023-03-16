@@ -154,7 +154,7 @@
               </div>
             </router-link>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <div class="contact">
