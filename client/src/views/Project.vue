@@ -101,7 +101,8 @@ export default {
   },
   mounted() {
     console.log(items)
-    this.item = items[0];
+    this.item = items[parseInt(this.$route.params.id) - 1];
+    console.log()
   },
   methods: {
 
