@@ -14,7 +14,6 @@ export default {
   name: "Work",
   data() {
     return {
-
     };
   },
   mounted() {

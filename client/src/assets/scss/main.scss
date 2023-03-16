@@ -1,4 +1,4 @@
-//fonts 
+//fonts
 @font-face {
     font-family: "Skeena";
     src: url("~@/assets/font/Skeena.ttf");
@@ -22,7 +22,7 @@ $secondary-color: #C62828;
 
 
 //reset
- 
+
 html{
     display: block;
     -webkit-text-size-adjust: none;
@@ -117,11 +117,8 @@ img {
 //resolutions
 @media(max-width: 1900px){
 }
-@media(max-width: 1599px){
-}
-@media(max-width: 1439px){
-}
-@media(max-width: 1365px){
+
+@media(max-width: 1300px){
 }
 @media(max-width: 1023px){
 }
@@ -192,7 +189,7 @@ img {
     }
 }
 
- 
+
 //font sizes
 %largest {
   font-size: 100px;
@@ -310,7 +307,7 @@ img {
 %hover.active:before,
 %hover.router-link-active:before{
     transform: translate(0%, -50%);
-} 
+}
 
 //scroll bar
 
@@ -398,7 +395,7 @@ body::-webkit-scrollbar-thumb {
 }
 .animate.anim-active.scale-in{
     opacity: 1;
-    transform: scale(1); 
+    transform: scale(1);
 }
 
 .animate.delay-1{
