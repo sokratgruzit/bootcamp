@@ -8,154 +8,29 @@
         </div>
       </div>
     </div>
-    <div class="bottom">
-      <div class="items-wrap">
-        <div class="bottom-item">
-          <div class="container">
-            <router-link to="/">
-              <div class="item">
-                <div class="item-title">
-                  <h2 class="title">Dirty Catan</h2>
-                  <span class="item-index">01</span>
-                </div>
-                <div class="item-image">
-                  <img
-                    alt="project image"
-                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
-                  />
-                </div>
-                <div class="tags">
-                  <p>Technologies:</p>
-                  <div class="tags-inner">
-                    <span class="tag"> React </span>
-                    <span class="tag"> Javascript </span>
-                    <span class="tag"> Vue </span>
-                    <span class="tag"> Git </span>
-                    <span class="tag"> Html </span>
-                    <span class="tag"> Css </span>
-                  </div>
-                </div>
+    <div class="items-wrap">
+      <router-link :to="`/work/${item.id}`" class="main-item" v-for="(item, index) in items" :key="index">
+        <div class="container">
+          <div class="item">
+            <div class="item-title">
+              <h2 class="title">{{ item.name }}</h2>
+              <span class="item-index">{{ index + 1 }}</span>
+            </div>
+            <div class="item-image">
+              <img
+                  alt="project image"
+                  :src="require(`@/assets/img/work/${item.images.main}`)"
+              />
+            </div>
+            <div class="tags">
+              <p>Technologies:</p>
+              <div class="tags-inner">
+                <span class="tag"  v-for="(list,index) in _.get(item, 'tech')" :key="index" > {{ list }} </span>
               </div>
-            </router-link>
+            </div>
           </div>
         </div>
-        <div class="bottom-item">
-          <div class="container">
-            <router-link to="/">
-              <div class="item">
-                <div class="item-title">
-                  <h2 class="title">Dirty Catan</h2>
-                  <span class="item-index">01</span>
-                </div>
-                <div class="item-image">
-                  <img
-                    alt="project image"
-                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
-                  />
-                </div>
-                <div class="tags">
-                  <p>Technologies:</p>
-                  <div class="tags-inner">
-                    <span class="tag"> React </span>
-                    <span class="tag"> Javascript </span>
-                    <span class="tag"> Vue </span>
-                    <span class="tag"> Git </span>
-                    <span class="tag"> Html </span>
-                    <span class="tag"> Css </span>
-                  </div>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>
-        <div class="bottom-item">
-          <div class="container">
-            <router-link to="/">
-              <div class="item">
-                <div class="item-title">
-                  <h2 class="title">Dirty Catan</h2>
-                  <span class="item-index">01</span>
-                </div>
-                <div class="item-image">
-                  <img
-                    alt="project image"
-                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
-                  />
-                </div>
-                <div class="tags">
-                  <p>Technologies:</p>
-                  <div class="tags-inner">
-                    <span class="tag"> React </span>
-                    <span class="tag"> Javascript </span>
-                    <span class="tag"> Vue </span>
-                    <span class="tag"> Git </span>
-                    <span class="tag"> Html </span>
-                    <span class="tag"> Css </span>
-                  </div>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>
-        <div class="bottom-item">
-          <div class="container">
-            <router-link to="/">
-              <div class="item">
-                <div class="item-title">
-                  <h2 class="title">Dirty Catan</h2>
-                  <span class="item-index">01</span>
-                </div>
-                <div class="item-image">
-                  <img
-                    alt="project image"
-                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
-                  />
-                </div>
-                <div class="tags">
-                  <p>Technologies:</p>
-                  <div class="tags-inner">
-                    <span class="tag"> React </span>
-                    <span class="tag"> Javascript </span>
-                    <span class="tag"> Vue </span>
-                    <span class="tag"> Git </span>
-                    <span class="tag"> Html </span>
-                    <span class="tag"> Css </span>
-                  </div>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>
-        <div class="bottom-item">
-          <div class="container">
-            <router-link to="/">
-              <div class="item">
-                <div class="item-title">
-                  <h2 class="title">Dirty Catan</h2>
-                  <span class="item-index">01</span>
-                </div>
-                <div class="item-image">
-                  <img
-                    alt="project image"
-                    src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
-                  />
-                </div>
-                <div class="tags">
-                  <p>Technologies:</p>
-                  <div class="tags-inner">
-                    <span class="tag"> React </span>
-                    <span class="tag"> Javascript </span>
-                    <span class="tag"> Vue </span>
-                    <span class="tag"> Git </span>
-                    <span class="tag"> Html </span>
-                    <span class="tag"> Css </span>
-                  </div>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>  
-      </div>
+      </router-link>
     </div>
     <div class="contact">
       <ContactBox />
@@ -166,13 +41,18 @@
 <script>
 import ContactBox from "../components/ContactBox.vue";
 import BecomeMember from "../components/parts/BecomeMember.vue";
+import items from "@/work.json"
 
 export default {
   name: "Work",
   data() {
-    return {};
+    return {
+      items: []
+    };
   },
-  mounted() {},
+  mounted() {
+    this.items = items;
+  },
   methods: {},
   components: { BecomeMember, ContactBox },
 };
@@ -208,8 +88,8 @@ export default {
 /* end of top */
 
 /* bottom */
-.bottom {
-  margin: 150px 0px 150px 0px;
+.main-item {
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .items-wrap {
   display: flex;
@@ -218,17 +98,17 @@ export default {
 }
 
 /* item hover */
-.bottom-item:hover {
+.main-item:hover {
   background-color: #1a1e25;
 }
-.bottom-item:hover .title {
+.main-item:hover .title {
   color: #c62828;
 }
-.bottom-item:hover .item-index {
+.main-item:hover .item-index {
   color: #c62828;
 }
 /* item hover end */
-.bottom-item {
+.main-item {
   width: 100%;
   cursor: pointer;
 }
@@ -245,17 +125,13 @@ export default {
 .item:last-child {
   border-bottom: 1px solid #9f9f9f;
 }
-.item:hover {
-  background-color: #1a1e25;
-}
-.item:hover .tags {
-  opacity: 1;
-}
+
 .item-index {
   position: absolute;
   font-size: 200px;
   color: #1a1e25;
   opacity: 0.1;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   /* top: ; */
 }
 .item-title {
@@ -264,6 +140,7 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .title {
   @extend %medium;
@@ -271,12 +148,15 @@ export default {
   letter-spacing: 0.08rem;
   // font-size: 50px;
   text-transform: uppercase;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .item-image {
   position: relative;
   width: 25%;
   height: 100%;
   padding-top: 20%;
+  overflow: hidden;
+  background: #23262E;
 }
 .item-image img {
   position: absolute;
@@ -285,6 +165,8 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transform: scale(1.05);
 }
 .tags {
   position: absolute;
@@ -293,10 +175,25 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transform: translateY(5px);
 }
 .tags p {
   color: #fff;
+  opacity: 0;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transform: translateY(5px);
+}
+.item:hover .item-image img{
+  transform: scale(1);
+}
+.item:hover .tags p{
+  transform: translateY(0px);
   opacity: 0.6;
+}
+.item:hover .tags {
+  opacity: 1;
+  transform: translateY(0px);
 }
 .tags-inner {
   display: flex;
@@ -316,10 +213,13 @@ export default {
   opacity: 0.7;
 }
 /* end of bottom */
-/* 
+/*
 @media(max-width: 1900px){
 } */
-@media (max-width: 1300px) {
+@media (max-width: 1900px) {
+  .work-container {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 1023px) {
   .top {
