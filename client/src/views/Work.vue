@@ -226,9 +226,7 @@ export default {
   opacity: 0.7;
 }
 /* end of bottom */
-/*
-@media(max-width: 1900px){
-} */
+
 @media (max-width: 1900px) {
   .work-container {
     margin-top: 50px;
