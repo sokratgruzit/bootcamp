@@ -1,6 +1,6 @@
 <template>
   <transition name="fade" mode="out-in">
-    <header id="header" :key="$route.path"> 
+    <header id="header" :key="$route.path">
       <div class="header-wrap">
         <router-link :to="'/'" class="logo">
           <Logo/>
@@ -31,6 +31,11 @@
                 <li class="remove-on-resp">
                   <router-link :to="{ query: {section: 'Focus'} }" @click.native="handleClick('Focus')">
                     <span>{{ $t("focus") }}</span>
+                  </router-link>
+                </li>
+                <li class="remove-on-resp">
+                  <router-link :to="{ name: 'Work' }">
+                    <span>{{ $t("work") }}</span>
                   </router-link>
                 </li>
                 <li>
@@ -137,7 +142,7 @@ header.scrolled.show{
         opacity: 1;
         transform: translateX(0%);
       }
-      
+
       &:hover:before{
         opacity: 1;
         transform: translateX(0%);
