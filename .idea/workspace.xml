@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52387201-253f-441e-85d8-b210809b64e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/main2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/main2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/secondary3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/style.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/style.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreacademy/web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/main2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/main2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/secondary3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/style.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/style.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coreexplorer/web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/main2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/main2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/secondary3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coregrowth/web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/main2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/main2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/secondary3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/web.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/work/coremultichain/web.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modules/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modules/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Work.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Work.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +51,7 @@
       <workItem from="1678609554269" duration="823000" />
       <workItem from="1678802478595" duration="3469000" />
       <workItem from="1678869412339" duration="16470000" />
-      <workItem from="1679047921588" duration="2786000" />
+      <workItem from="1679047921588" duration="2961000" />
     </task>
     <servers />
   </component>
