@@ -513,6 +513,7 @@ export default {
 }
 .member:hover .text {
   background-color: #1a1e25;
+  padding: 10px;
 }
 .member:hover .text p,
 .member:hover .text span {
@@ -577,10 +578,10 @@ export default {
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
-  background-color: #fff;
+  background-color: #F5F5F5;
   z-index: 2;
-  padding: 10px;
   flex-wrap: wrap;
+  padding: 10px 0px;
 }
 .text p,
 .text span {
