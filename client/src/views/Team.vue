@@ -568,9 +568,6 @@ export default {
   transition: 0.5s;
   cursor: pointer;
 }
-.tags p:hover {
-  opacity: 0.5;
-}
 .text {
   display: flex;
   align-items: center;
