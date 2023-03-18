@@ -561,7 +561,7 @@ export default {
 .tags p {
   color: #fff;
   font-size: 13px;
-  border: 1px solid #1a1e25;
+  border: 1px solid #5e5e5e60;
   padding: 3px 6px;
   background: rgba(26, 30, 37, 0.8);
   border-radius: 44px;
