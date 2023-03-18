@@ -1,6 +1,5 @@
 <template>
   <div class="work-container">
-    <ContactBox/>
     <div class="container">
       <div class="top">
         <h1>Work</h1>
