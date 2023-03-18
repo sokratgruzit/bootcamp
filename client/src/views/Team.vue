@@ -33,7 +33,7 @@
             </div>
             <div class="member-inner">
               <div class="row">
-                <a href="https://github.com">
+                <a target="_blank" href="https://github.com">
                   <svg
                     width="20"
                     height="20"
@@ -242,6 +242,7 @@ export default {
   padding: 0px 15px 15px 15px;
   width: 100%;
   opacity: 0;
+  z-index: 3;
 }
 .row svg {
   cursor: pointer;
