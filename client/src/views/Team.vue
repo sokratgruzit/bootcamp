@@ -579,6 +579,7 @@ export default {
   background-color: #fff;
   z-index: 2;
   padding: 10px;
+  flex-wrap: wrap;
 }
 .text p,
 .text span {
@@ -600,19 +601,15 @@ export default {
   }
 }
 @media (max-width: 1600px) {
+}
+@media (max-width: 1300px) {
   .member {
     width: calc((100% - 60px) / 3);
   }
 }
-@media (max-width: 1300px) {
-  .member {
-    width: calc((100% - 30px) / 2);
-  }
-}
 @media (max-width: 1023px) {
   .member {
-    width: 100%;
-    padding-top: 45%;
+    width: calc((100% - 30px) / 2);
   }
   .top {
     width: 100%;
@@ -622,8 +619,9 @@ export default {
   }
 }
 @media (max-width: 767px) {
-  .text {
-    flex-direction: column;
+  .member {
+    width: 100%;
+    padding-top: 45%;
   }
   .top {
     flex-direction: column;
