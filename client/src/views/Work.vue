@@ -1,6 +1,5 @@
 <template>
   <div class="work-container">
-    <ContactBox/>
     <div class="container">
       <div class="top">
         <h1>Work</h1>
@@ -10,7 +9,12 @@
       </div>
     </div>
     <div class="items-wrap">
-      <router-link :to="`/work/${item.id}`" class="main-item" v-for="(item, index) in items" :key="index">
+      <router-link
+        :to="`/work/${item.id}`"
+        class="main-item"
+        v-for="(item, index) in items"
+        :key="index"
+      >
         <div class="container">
           <div class="item">
             <div class="item-title">
@@ -19,14 +23,20 @@
             </div>
             <div class="item-image">
               <img
-                  alt="project image"
-                  :src="require(`@/assets/img/work/${item.images.main}`)"
+                alt="project image"
+                :src="require(`@/assets/img/work/${item.images.main}`)"
               />
             </div>
             <div class="tags">
               <p>Technologies:</p>
               <div class="tags-inner">
-                <span class="tag"  v-for="(list,index) in _.get(item, 'tech')" :key="index" > {{ list }} </span>
+                <span
+                  class="tag"
+                  v-for="(list, index) in _.get(item, 'tech')"
+                  :key="index"
+                >
+                  {{ list }}
+                </span>
               </div>
             </div>
           </div>
@@ -42,13 +52,13 @@
 <script>
 import ContactBox from "../components/ContactBox.vue";
 import BecomeMember from "../components/parts/BecomeMember.vue";
-import items from "@/work.json"
+import items from "@/work.json";
 
 export default {
   name: "Work",
   data() {
     return {
-      items: []
+      items: [],
     };
   },
   mounted() {
@@ -90,12 +100,13 @@ export default {
 
 /* bottom */
 .main-item {
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .items-wrap {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 120px;
 }
 
 /* item hover */
@@ -132,7 +143,7 @@ export default {
   font-size: 200px;
   color: #1a1e25;
   opacity: 0.1;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   /* top: ; */
 }
 .item-title {
@@ -141,7 +152,7 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .title {
   @extend %medium;
@@ -149,7 +160,7 @@ export default {
   letter-spacing: 0.08rem;
   // font-size: 50px;
   text-transform: uppercase;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .item-image {
   position: relative;
@@ -157,7 +168,7 @@ export default {
   height: 100%;
   padding-top: 20%;
   overflow: hidden;
-  background: #23262E;
+  background: #23262e;
 }
 .item-image img {
   position: absolute;
@@ -166,7 +177,7 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   transform: scale(1.05);
 }
 .tags {
@@ -176,19 +187,19 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   transform: translateY(5px);
 }
 .tags p {
   color: #fff;
   opacity: 0;
-  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   transform: translateY(5px);
 }
-.item:hover .item-image img{
+.item:hover .item-image img {
   transform: scale(1);
 }
-.item:hover .tags p{
+.item:hover .tags p {
   transform: translateY(0px);
   opacity: 0.6;
 }
@@ -214,9 +225,7 @@ export default {
   opacity: 0.7;
 }
 /* end of bottom */
-/*
-@media(max-width: 1900px){
-} */
+
 @media (max-width: 1900px) {
   .work-container {
     margin-top: 50px;
@@ -254,6 +263,5 @@ export default {
     width: 100%;
     padding-top: 80%;
   }
-
 }
 </style>
