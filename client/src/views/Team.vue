@@ -16,24 +16,24 @@
     </div>
     <div class="container">
       <div class="bottom">
-        <div class="switcher-outer">
-          <p>All</p>
-          <p>Chief</p>
-          <p>Developers</p>
-          <p>Desingers</p>
-        </div>
+<!--        <div class="switcher-outer">-->
+<!--          <p>All</p>-->
+<!--          <p>Chief</p>-->
+<!--          <p>Developers</p>-->
+<!--          <p>Desingers</p>-->
+<!--        </div>-->
         <div class="team-members">
-          <router-link class="member" to="/team/xui">
+          <div class="member" v-for="(item, index) in items">
             <img
-              src="https://storage.prompt-hunt.workers.dev/clejbtpon0005jt08qqamc5nk_1"
-              alt="team member"
+                alt="team image"
+                :src="require(`@/assets/img/team/${item.image}`)"
             />
             <div class="brush">
               <Tassel />
             </div>
             <div class="member-inner">
               <div class="row">
-                <a target="_blank" href="https://github.com">
+                <a target="_blank" :href="item.git">
                   <svg
                     width="20"
                     height="20"
@@ -47,7 +47,7 @@
                     />
                   </svg>
                 </a>
-                <a href="https://linkedin.com">
+                <a target="_blank" :href="item.linkedIn">
                   <svg
                     width="21"
                     height="20"
@@ -68,21 +68,16 @@
                 </a>
               </div>
               <div class="tags">
-                <p>Vue</p>
-                <p>React</p>
-                <p>Node</p>
-                <p>Git</p>
-                <p>Figma</p>
-                <p>Vue</p>
+                <p v-for="(list, index) in item.skills" :key="index">{{ list }}</p>
               </div>
               <div class="text">
-                <p>Sergo Shishmanidze</p>
+                <p>{{item.name}}</p>
                 <p class="text-tags">
-                  <span>CTO,</span><span>CEO,</span><span>Full Stack Dev.</span>
+                  <span>{{item.position}}</span>
                 </p>
               </div>
             </div>
-          </router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -91,12 +86,29 @@
     </div>
   </div>
 </template>
-
+<!--//დავით თავაძე →Senior Fullstack Developer,CTO, FOUNDER, heart of the project-->
+<!--//სერგო შიშმაიძე→Senior Frontend Developer-->
+<!--//მარიამ ტალახაძე→Senior BackendDeveloper-->
+<!--//გოგა ოქრაძე →Middle FullStack Developer-->
+<!--//ზურა ჩუბინაშვილი→Middle FullStack Developer-->
+<!--//ნიკა ექიზაშვილი →Middle Frontend Developer-->
+<!--//დავითი გელიაშვილი→Middle Frontend Developer-->
+<!--//გიორგი ცხვარაძე→Junior UI Developer-->
+<!--//ცოტნე ხულორდავა→Junior UI Developer-->
+<!--//ალექსანდე ფიფია→Junior Backend Developer-->
+<!--//ბეჟან ყალიჩავა→Junior Frontend Developer-->
+<!--//ნუცა კაშმაძე→ Project Manager-->
+<!--//ნიკა გოგიტიძე→ Middle Frontend Developer-->
+<!--//გიორგი ჯამასპიშვილი→Senior UI/UX Designer-->
+<!--//რამაზ ზახოკია→ Junior UI Developer-->
+<!--//ოთარ დავითაშვილი→Middle UI/UX Designer-->
+<!--//სალო ჩხარტიშვილი→Junior Frontend Developer-->
+<!--//ნინო ტალახაძე→Junior Frontend Developer-->
 <script>
 import ContactBox from "../components/ContactBox.vue";
 import Tassel from "../components/parts/Tassel-3.vue";
 import BecomeMember from "../components/parts/BecomeMember.vue";
-import items from "@/work.json";
+import items from "@/team.json";
 
 export default {
   name: "Work",
@@ -186,8 +198,9 @@ export default {
   display: flex;
   width: calc((100% - 90px) / 4);
   padding-top: 17%;
-  transition: 0.5s;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   overflow: hidden;
+
 }
 
 .member:hover {
@@ -199,7 +212,6 @@ export default {
 }
 .member:hover .text {
   background-color: #1a1e25;
-  padding: 10px;
 }
 .member:hover .text p,
 .member:hover .text span {
@@ -207,6 +219,7 @@ export default {
 }
 .member:hover .brush {
   opacity: 1;
+  transform: translateX(0px) translateY(0px);
 }
 .member img {
   position: absolute;
@@ -215,15 +228,19 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 0.5s;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
-
+.member:hover img {
+  transform: scale(1.1);
+}
 .brush {
   position: absolute;
   bottom: 35px;
   right: -30px;
   z-index: 1;
   opacity: 0;
+  transition: 1s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+  transform: translateX(10px) translateY(10px);
 }
 
 .member-inner {
@@ -243,6 +260,7 @@ export default {
   width: 100%;
   opacity: 0;
   z-index: 3;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .row svg {
   cursor: pointer;
@@ -258,6 +276,7 @@ export default {
   gap: 6px;
   padding: 15px 15px 0px 15px;
   opacity: 0;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .tags p {
   color: #fff;
@@ -266,8 +285,8 @@ export default {
   padding: 3px 6px;
   background: rgba(26, 30, 37, 0.8);
   border-radius: 44px;
-  transition: 0.5s;
   cursor: pointer;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .text {
   display: flex;
@@ -277,27 +296,35 @@ export default {
   background-color: #f5f5f5;
   z-index: 2;
   flex-wrap: wrap;
-  padding: 10px 0px;
+  padding: 10px;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .text p,
 .text span {
   color: #000;
   font-size: 14px;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .text p {
   text-transform: uppercase;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 .text-tags {
   display: flex;
   align-items: center;
   gap: 6px;
+  transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
 @media (max-width: 1900px) {
   .team-container {
     margin-top: 50px;
   }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1900px) {
+  .text p,
+  .text span {
+    font-size: 12px;
+  }
 }
 @media (max-width: 1300px) {
   .member {

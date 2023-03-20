@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "name" : "David Tavadze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "david.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Senior Fullstack Developer, CEO, FOUNDER"
+  },
+  {
+    "id": 2,
+    "name" : "Mariam Talakhadze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "mariam.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Senior Backend Developer, CTO"
+  },
+  {
+    "id": 3,
+    "name" : "Sergo Shishmanidze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "mucho.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Senior Frontend Developer"
+  },
+  {
+    "id": 4,
+    "name" : "Giorgi Jamaspishvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "gio.png",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Senior UI/UX Designer"
+  },
+  {
+    "id": 5,
+    "name" : "Nuca Kashmadze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "nuca.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Project Manager"
+  },
+  {
+    "id": 6,
+    "name" : "David Geliashvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "opo.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle Full Stack Developer"
+  },
+  {
+    "id": 7,
+    "name" : "Nika Eqizashvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "nika.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle Full Stack Developer"
+  },
+  {
+    "id": 6,
+    "name" : "Goga Okradze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "goga.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle Full Stack Developer"
+  },
+  {
+    "id": 7,
+    "name" : "Zura Chubinashvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "zura.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle Full Stack Developer"
+  },
+  {
+    "id": 8,
+    "name" : "Nika Gogitidze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "zura.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle Full Stack Developer"
+  },
+  {
+    "id": 9,
+    "name" : "Otar Davitashvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "oto.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Middle UI/UX Designer"
+  },
+  {
+    "id": 10,
+    "name" : "Nino Talakhadze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "nino.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 11,
+    "name" : "Salo Chkhatarashvili",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "salo.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 12,
+    "name" : "Giorgi Ckhvaradze",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "cxvara.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 13,
+    "name" : "Bejan Khalichava",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "bejo.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 14,
+    "name" : "Alex Pipia",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "alex.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 15,
+    "name" : "Ramaz Zakhokia",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "ramaz.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  },
+  {
+    "id": 16,
+    "name" : "Cotne Khulordava",
+    "linkedIn": "https://www.linkedin.com/",
+    "git": "https://www.linkedin2.com/",
+    "image": "cotna.jpg",
+    "skills": ["Mineti", "Joneti"],
+    "position": "Junior Frontend Developer"
+  }
+]
+

@@ -136,13 +136,12 @@ export default {
       this.scrollbar = Scrollbar.init(
         document.querySelector("#custom-scrollbar"),
         {
-          damping: 0.1,
           renderByPixels: true,
           continuousScrolling: true,
           alwaysShowTracks: true,
           plugins: {
             overscroll: {
-              damping: 0.2,
+              damping: 0.15,
               maxOverscroll: 20,
               syncCallbacks: true,
             },
@@ -168,7 +167,7 @@ export default {
         setTimeout(function () {
           _this.setAnimationClass(animates);
         }, 200);
-        
+
 
 
         //strategy slider
@@ -180,7 +179,7 @@ export default {
 
         const parallaxe = document.querySelectorAll('.parallaxe');
 
-        this.scrollbar.addListener((status) => { 
+        this.scrollbar.addListener((status) => {
           const _this = this;
 
           //animate
@@ -199,7 +198,7 @@ export default {
               _this.$store.commit("setStrategyScroll", false);
             }
           }
-
+          console.log(_this.$route.name)
           if(_this.$route.name === 'Home'){
             let introTop = document.getElementById("scroll-rock-hand").getBoundingClientRect().top;
             let socratesTop = document.getElementById("scroll-socrates").getBoundingClientRect().top;
@@ -297,10 +296,10 @@ export default {
             } else {
               header.classList.add("show");
             }
-          } 
+          }
 
-          
-          
+
+
           //parallaxe
           _this.setParallaxe(parallaxe, status.offset.y, scrollOldValue);
 
@@ -366,7 +365,7 @@ export default {
               item.style.transform = 'translate(0,' + value + 'px)';
             }
           }
-         
+
         })
       }
     },
@@ -395,7 +394,7 @@ export default {
 .page-wrap{
   height: 100%;
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 #custom-scrollbar {
   display: block;
