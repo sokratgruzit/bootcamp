@@ -38,6 +38,11 @@
                     <span>{{ $t("work") }}</span>
                   </router-link>
                 </li>
+                <li class="remove-on-resp">
+                  <router-link :to="{ name: 'Team' }">
+                    <span>{{ $t("team") }}</span>
+                  </router-link>
+                </li>
                 <li>
                   <router-link :to="{ query: {section: 'Contact'} }" @click.native="handleClick('Contact')">
                     <span>{{ $t("contact") }}</span>

@@ -4,7 +4,7 @@
     "name" : "David Tavadze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "david.jpg",
+    "image": "david.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Senior Fullstack Developer, CEO, FOUNDER"
   },
@@ -13,7 +13,7 @@
     "name" : "Mariam Talakhadze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "mariam.jpg",
+    "image": "mariam.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Senior Backend Developer, CTO"
   },
@@ -22,7 +22,7 @@
     "name" : "Sergo Shishmanidze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "mucho.jpg",
+    "image": "mucho.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Senior Frontend Developer"
   },
@@ -40,7 +40,7 @@
     "name" : "Nuca Kashmadze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "nuca.jpg",
+    "image": "nuca.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Project Manager"
   },
@@ -49,7 +49,7 @@
     "name" : "David Geliashvili",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "opo.jpg",
+    "image": "opo.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle Full Stack Developer"
   },
@@ -58,7 +58,7 @@
     "name" : "Nika Eqizashvili",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "nika.jpg",
+    "image": "nika.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle Full Stack Developer"
   },
@@ -67,7 +67,7 @@
     "name" : "Goga Okradze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "goga.jpg",
+    "image": "goga.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle Full Stack Developer"
   },
@@ -76,7 +76,7 @@
     "name" : "Zura Chubinashvili",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "zura.jpg",
+    "image": "zura.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle Full Stack Developer"
   },
@@ -85,7 +85,7 @@
     "name" : "Nika Gogitidze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "zura.jpg",
+    "image": "zura.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle Full Stack Developer"
   },
@@ -94,7 +94,7 @@
     "name" : "Otar Davitashvili",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "oto.jpg",
+    "image": "oto.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Middle UI/UX Designer"
   },
@@ -103,7 +103,7 @@
     "name" : "Nino Talakhadze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "nino.jpg",
+    "image": "nino.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -112,7 +112,7 @@
     "name" : "Salo Chkhatarashvili",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "salo.jpg",
+    "image": "salo.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -121,7 +121,7 @@
     "name" : "Giorgi Ckhvaradze",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "cxvara.jpg",
+    "image": "cxvara.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -130,7 +130,7 @@
     "name" : "Bejan Khalichava",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "bejo.jpg",
+    "image": "bejo.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -139,7 +139,7 @@
     "name" : "Alex Pipia",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "alex.jpg",
+    "image": "alex.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -148,7 +148,7 @@
     "name" : "Ramaz Zakhokia",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "ramaz.jpg",
+    "image": "ramaz.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   },
@@ -157,7 +157,7 @@
     "name" : "Cotne Khulordava",
     "linkedIn": "https://www.linkedin.com/",
     "git": "https://www.linkedin2.com/",
-    "image": "cotna.jpg",
+    "image": "cotna.png",
     "skills": ["Mineti", "Joneti"],
     "position": "Junior Frontend Developer"
   }

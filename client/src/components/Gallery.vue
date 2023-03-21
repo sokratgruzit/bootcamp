@@ -53,7 +53,7 @@
                 @click="galIndex = thumbIndex"
               >
                 <img
-                  :src="$PUBLIC + _.get(slide, 'image.path')"
+                  :src="'https://api.hypercubic.tech' + _.get(slide, 'image.path')"
                   class="slide-img"
                   :alt="_.get(slide, 'image.alt')"
                 />
@@ -489,7 +489,7 @@ export default {
           this.slides.forEach(function (slide) {
             if (_.size(slide.picArr) > 0) {
               slide.picArr.forEach(function (item) {
-                item.src = _this.$PUBLIC + item.image.path;
+                item.src = 'https://api.hypercubic.tech' + item.image.path;
               });
             }
           });

@@ -19,7 +19,7 @@
       <div id="custom-scrollbar">
         <transition name="fade" mode="out-in">
           <div class="page-wrapper" :key="$route.path">
-            <THREE :scrollTop="_.get(scrollbar, 'offset.y') || 0"/>
+            <THREE v-if="false" :scrollTop="_.get(scrollbar, 'offset.y') || 0"/>
             <div class="noisy"></div>
             <main>
               <router-view></router-view>
@@ -198,7 +198,6 @@ export default {
               _this.$store.commit("setStrategyScroll", false);
             }
           }
-          console.log(_this.$route.name)
           if(_this.$route.name === 'Home'){
             let introTop = document.getElementById("scroll-rock-hand").getBoundingClientRect().top;
             let socratesTop = document.getElementById("scroll-socrates").getBoundingClientRect().top;

@@ -29,7 +29,10 @@
                 :src="require(`@/assets/img/team/${item.image}`)"
             />
             <div class="brush">
-              <Tassel />
+              <img
+                  alt="team image"
+                  :src="require(`@/assets/img/redcover.png`)"
+              />
             </div>
             <div class="member-inner">
               <div class="row">
@@ -221,7 +224,7 @@ export default {
   opacity: 1;
   transform: translateX(0px) translateY(0px);
 }
-.member img {
+.member > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -230,7 +233,7 @@ export default {
   object-fit: cover;
   transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
 }
-.member:hover img {
+.member:hover > img {
   transform: scale(1.1);
 }
 .brush {

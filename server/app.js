@@ -34,7 +34,7 @@ app.use(
 const PORT = process.env.PORT;
 //const DB_URL = 'mongodb+srv://bootcamp:hy65Cb89P@bootcamp.i4bcb.mongodb.net/bootcamp?retryWrites=true&w=majority';
 const DB_URL =
-  "mongodb+srv://explorer2021:Marmara88@explorer.hpupayi.mongodb.net/hypercubic?retryWrites=true&w=majority";
+  "mongodb+srv://hypercubictech:TwsfxemKZjcNhoQY@hypercubic.gq3kc6s.mongodb.net/hypercubic?retryWrites=true&w=majority";
 async function start() {
   try {
     mongoose.connect(DB_URL, {
