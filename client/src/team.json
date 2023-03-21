@@ -14,7 +14,7 @@
     "linkedIn": "https://www.linkedin.com/in/mariamtalakhadze/",
     "git": "https://github.com/MarkoPolo88",
     "image": "mariam.png",
-    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "Web3Js", "Google Analytics", "Smart Contracts", "OOP", "MVC", "Bitbucket","PHP", "Javascript", "PHP Frameworks", "JQuery"],
+    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "Web3Js", "Google Analytics", "Smart Contracts","GraphQL", "Express.Js", "OOP", "MVC", "Bitbucket","PHP", "Javascript", "PHP Frameworks", "JQuery"],
     "position": "Senior Backend Developer, CTO"
   },
   {
@@ -23,7 +23,7 @@
     "linkedIn": "https://www.linkedin.com/in/sergo-shishmanidze-7b8283153/",
     "git": "https://github.com/yoozap",
     "image": "mucho.png",
-    "skills": ["Vue.Js", "React.Js", "Node.Js", "Three.Js", "Javascript", "HTML5", "CSS", "SASS", "Laravel"],
+    "skills": ["Vue.Js", "React.Js", "Node.Js", "Three.Js", "Javascript", "HTML5", "CSS", "SASS", "Laravel", "Figma", "Redux"],
     "position": "Senior Frontend Developer"
   },
   {
@@ -50,7 +50,7 @@
     "linkedIn": "https://www.linkedin.com/in/dato-geliashvili-846b4b25a/",
     "git": "https://github.com/keksik95",
     "image": "opo.png",
-    "skills": ["HTML5", "CSS", "SASS", "React.Js", "Next.Js", "Javascript", "Git"],
+    "skills": ["HTML5", "CSS", "SASS", "React.Js", "Next.Js", "Javascript", "Git", "Figma", "Redux"],
     "position": "Middle Full Stack Developer"
   },
   {
@@ -68,7 +68,7 @@
     "linkedIn": "https://www.linkedin.com/in/goga-okradze/",
     "git": "https://github.com/gogaokradze",
     "image": "goga.png",
-    "skills": ["HTML5", "CSS", "SASS", "TailwindCss", "Bootstrap", "Javascript", "Typescrypt", "React.Js","Vue.Js", "Next.Js", "Redux", "GraphQL", "Node.Js", "Express.Js", "SQL", "MongoDB", "Git"],
+    "skills": ["HTML5", "CSS", "SASS", "TailwindCss", "Bootstrap", "Javascript", "Typescrypt", "React.Js","Vue.Js", "Next.Js", "Redux", "GraphQL", "Node.Js", "Express.Js", "SQL", "MongoDB", "Git", "Figma"],
     "position": "Middle Full Stack Developer"
   },
   {
@@ -77,7 +77,7 @@
     "linkedIn": "https://www.linkedin.com/in/zura-chubinashvili/",
     "git": "https://github.com/chubinashvili",
     "image": "zura.png",
-    "skills": ["Typescrypt", "SASS", "HTML5", "Firebase", "Jest", "Redux", "Next.Js", "React.Js", "Node.Js", "Javascript", "MongoDB", "CSS", "Git", "GraphQL" ],
+    "skills": ["Typescrypt", "SASS", "HTML5", "Firebase", "Jest", "Redux", "Next.Js", "React.Js", "Node.Js", "Javascript", "MongoDB", "CSS", "Git", "GraphQL" , "Figma"],
     "position": "Middle Full Stack Developer"
   },
   {
@@ -86,7 +86,7 @@
     "linkedIn": "https://www.linkedin.com/in/nicolas-gogitidze-8b1532229/",
     "git": "https://github.com/Nicolas-ggd",
     "image": "niki.jpg",
-    "skills": ["HTML5", "CSS", "Git", "Javascript", "React.Js", "Next.Js", "Node.Js", "MongoDB", "jQuery", "OOP", "Redux", "SQL", "Vue.Js"],
+    "skills": ["HTML5", "CSS", "Git", "Javascript", "React.Js", "Next.Js", "Node.Js", "MongoDB", "jQuery", "OOP", "Redux", "SQL", "Vue.Js", "Figma"],
     "position": "Middle Full Stack Developer"
   },
   {
@@ -104,7 +104,7 @@
     "linkedIn": "https://www.linkedin.com/in/nino-talakhadze-844b27226",
     "git": "https://github.com/NTsloth",
     "image": "nino.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git", "Figma"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git", "Figma", "Redux"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -113,7 +113,7 @@
     "linkedIn": "https://www.linkedin.com/in/salo-chkhartishvili-770369250/",
     "git": "https://github.com/SaloChkhartishvili",
     "image": "salo.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Figma" , "Git"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Figma" , "Git", "Redux"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -131,7 +131,7 @@
     "linkedIn": "https://www.linkedin.com/in/bezhan-kalichava-24864120a/",
     "git": "https://github.com/aLLod1n",
     "image": "bejo.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Node.Js", "Git", "MongoDB", "Redux"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Node.Js", "Git", "MongoDB", "Redux", "Figma"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -140,7 +140,7 @@
     "linkedIn": "https://www.linkedin.com/in/alex-pipia-9a69651a0/",
     "git": "https://github.com/childSibellA",
     "image": "alex.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "Node.Js", "React.Js", "Git", "MongoDB", "GraphQL", "Deno", "MVC"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "Node.Js", "React.Js", "Git", "MongoDB", "GraphQL", "Deno", "MVC", "Figma", "Redux"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -149,7 +149,7 @@
     "linkedIn": "https://www.linkedin.com/in/ramaz-sakhokia-a0a26a26b/",
     "git": "https://github.com/Ankselam",
     "image": "ramaz.png",
-    "skills": ["HTML5", "CSS", "Javascript", "React.Js", "Git", "Figma"],
+    "skills": ["HTML5", "CSS", "Javascript", "React.Js", "Git", "Figma", "Redux"],
     "position": "Junior Frontend Developer"
   },
   {
