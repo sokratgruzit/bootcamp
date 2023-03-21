@@ -10,18 +10,18 @@
       },
       {
         "name": "UI/UX Designer:",
-        "text": "Giorgi Jamaspishvili"
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
       },
       {
         "name": "Front-End Developer",
-        "text": "Tarzy, Muchacho"
+        "text": "David Tavadze, Sergo Shishmanidze"
       },
       {
         "name": "Back-End Developer",
         "text": "Mariam Talakhadze"
       }
     ],
-    "tech": ["ReactJs","Racxa"],
+    "tech": ["VueJs","Laravel", "MySQL"],
     "descrName": "CORE— is Multi Chain PoS Network focused on Interoperability, Scalability and Usability. It utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance.",
     "descr": "It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing. These technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.",
     "link": "https://coremultichain.com/",
@@ -53,24 +53,24 @@
     "team": [
       {
         "name": "Product:",
-        "text": "CORE Multichain"
+        "text": "CORE Growth"
       },
       {
         "name": "UI/UX Designer:",
-        "text": "Giorgi Jamaspishvili"
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
       },
       {
         "name": "Front-End Developer",
-        "text": "Tarzy, Muchacho"
+        "text": "David Tavadze, Sergo Shishmanidze"
       },
       {
         "name": "Back-End Developer",
         "text": "Mariam Talakhadze"
       }
     ],
-    "tech": ["ReactJs","Racxa"],
-    "descrName": "CORE— is Multi Chain PoS Network focused on Interoperability, Scalability and Usability. It utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance.",
-    "descr": "It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing. These technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.",
+    "tech": ["VueJs","Laravel", "MySQL", "Moralis", "Web3"],
+    "descrName": "Core Growth - Comprehensive Data and Charts for CMCX Token",
+    "descr": "Core Growth is a web platform that provides valuable information and data analysis for the CMCX token in the cryptocurrency market. The platform displays charts and data for market information, staking, staker records, transfers, Google Analytics, GitHub activity, user activity by country, holders, and DEX transactions. With its comprehensive data coverage and user-friendly interface, Core Growth is a must-have tool for anyone interested in the CMCX token and the cryptocurrency industry as a whole.",
     "link": "https://growth.coremultichain.com/",
     "images": {
       "main": "coregrowth/main.png",
@@ -100,24 +100,24 @@
     "team": [
       {
         "name": "Product:",
-        "text": "CORE Multichain"
+        "text": "CORE Explorer"
       },
       {
         "name": "UI/UX Designer:",
-        "text": "Giorgi Jamaspishvili"
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
       },
       {
         "name": "Front-End Developer",
-        "text": "Tarzy, Muchacho"
+        "text": "David Tavadze, Sergo Shishmanidze"
       },
       {
         "name": "Back-End Developer",
         "text": "Mariam Talakhadze"
       }
     ],
-    "tech": ["ReactJs","Racxa"],
-    "descrName": "CORE— is Multi Chain PoS Network focused on Interoperability, Scalability and Usability. It utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance.",
-    "descr": "It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing. These technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.",
+    "tech": ["VueJS","NodeJs", "Web3", "Solidity"],
+    "descrName": "Core Block Testnet Explorer - Access CMCX Coin Blockchain Data",
+    "descr": " Core Block Explorer is a website that provides access to blockchain data associated with the CMCX testnet Coin. The website displays block and transaction information, a list of available tokens, and API endpoints to retrieve blockchain data connected to this coin. With its user-friendly interface and comprehensive data coverage, Core Block Explorer is a valuable tool for anyone interested in exploring the CMCX Coin Blockchain.",
     "link": "https://dejavu-testnet.coremultichain.com/",
     "images": {
       "main": "coreexplorer/main.png",
@@ -147,24 +147,24 @@
     "team": [
       {
         "name": "Product:",
-        "text": "CORE Multichain"
+        "text": "CORE Academy"
       },
       {
         "name": "UI/UX Designer:",
-        "text": "Giorgi Jamaspishvili"
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
       },
       {
         "name": "Front-End Developer",
-        "text": "Tarzy, Muchacho"
+        "text": "David Tavadze, Sergo Shishmanidze"
       },
       {
         "name": "Back-End Developer",
         "text": "Mariam Talakhadze"
       }
     ],
-    "tech": ["ReactJs","Racxa"],
-    "descrName": "CORE— is Multi Chain PoS Network focused on Interoperability, Scalability and Usability. It utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance.",
-    "descr": "It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing. These technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.",
+    "tech": ["VueJS","Larvel"],
+    "descrName": "Core Academy - Online Platform for Blockchain Education",
+    "descr": "Core Academy is an online platform that provides courses, tutorials, and educational resources on various topics related to blockchain technology and cryptocurrency. With courses covering blockchain fundamentals, smart contracts, DeFi, and cryptocurrency trading, Core Academy aims to offer a comprehensive learning experience that is accessible to beginners and valuable to experienced blockchain enthusiasts. Whether you're looking to learn the basics of blockchain or keep up-to-date with the latest industry developments, Core Academy is a valuable resource for anyone interested in blockchain technology.",
     "link": "https://coreacademy.xyz/",
     "images": {
       "main": "coreacademy/main.png",
