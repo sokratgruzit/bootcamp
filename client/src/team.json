@@ -104,7 +104,7 @@
     "linkedIn": "https://www.linkedin.com/in/nino-talakhadze-844b27226",
     "git": "https://github.com/NTsloth",
     "image": "nino.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git", "Figma"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -113,7 +113,7 @@
     "linkedIn": "https://www.linkedin.com/in/salo-chkhartishvili-770369250/",
     "git": "https://github.com/SaloChkhartishvili",
     "image": "salo.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Figma" , "Git"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -127,7 +127,7 @@
   },
   {
     "id": 13,
-    "name" : "Bejan Khalichava",
+    "name" : "Bezhan kalichava",
     "linkedIn": "https://www.linkedin.com/in/bezhan-kalichava-24864120a/",
     "git": "https://github.com/aLLod1n",
     "image": "bejo.png",
@@ -154,7 +154,7 @@
   },
   {
     "id": 16,
-    "name" : "Cotne Khulordava",
+    "name" : "Tsotne Khulordava",
     "linkedIn": "https://www.linkedin.com/in/tsotne-khulordava-6a840b249/",
     "git": "https://github.com/EntostGardener?tab=repositories",
     "image": "cotna.png",
