@@ -8,10 +8,11 @@
         </div>
       </div>
     </div>
-    <div class="cover">
+    <div class="cover animate fade-in deley-1">
       <img
-        src="https://www.shutterstock.com/image-illustration/triangle-solid-black-golden-illustration-260nw-1862937556.jpg"
+          :src="require(`@/assets/img/liza.jpeg`)"
         alt="cover photo"
+          data-transform="0" data-intensity="2" class="top parallaxe"
       />
     </div>
     <div class="container">
@@ -23,7 +24,7 @@
 <!--          <p>Desingers</p>-->
 <!--        </div>-->
         <div class="team-members">
-          <div class="member" v-for="(item, index) in items">
+          <div class="member animate fade-in deley-1" v-for="(item, index) in items">
             <img
                 alt="team image"
                 :src="require(`@/assets/img/team/${item.image}`)"
@@ -147,7 +148,7 @@ export default {
   margin-top: 120px;
   position: relative;
   width: 100%;
-  padding-top: 45%;
+  padding-top: 25%;
   overflow: hidden;
 }
 .cover img {
@@ -200,10 +201,9 @@ export default {
   position: relative;
   display: flex;
   width: calc((100% - 90px) / 4);
-  padding-top: 17%;
+  padding-top: 28%;
   transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
   overflow: hidden;
-
 }
 
 .member:hover {
@@ -247,12 +247,14 @@ export default {
 }
 
 .member-inner {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  z-index: 1;
   width: 100%;
+  z-index: 10;
+  bottom: 0px;
+  left: 0px;
 }
 .row {
   display: flex;
@@ -277,6 +279,7 @@ export default {
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-wrap: wrap;
   padding: 15px 15px 0px 15px;
   opacity: 0;
   transition: .6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
@@ -332,6 +335,7 @@ export default {
 @media (max-width: 1300px) {
   .member {
     width: calc((100% - 60px) / 3);
+    padding-top: 38%;
   }
 }
 @media (max-width: 1023px) {
@@ -348,7 +352,7 @@ export default {
 @media (max-width: 767px) {
   .member {
     width: 100%;
-    padding-top: 45%;
+    padding-top: 85%;
   }
   .top {
     flex-direction: column;

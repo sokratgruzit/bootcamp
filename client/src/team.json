@@ -14,7 +14,7 @@
     "linkedIn": "https://www.linkedin.com/in/mariamtalakhadze/",
     "git": "https://github.com/MarkoPolo88",
     "image": "mariam.png",
-    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "web3.js", "Web3", "Github", "Google Analytics", "Ethereum", "Smart Contracts", "Git", "OOP", "MVC", "Bitbucket","Web Development","PHP", "Javascrypt", "PHP Frameworks","AJAX", "JQuery"],
+    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "Web3Js", "Google Analytics", "Smart Contracts", "OOP", "MVC", "Bitbucket","PHP", "Javascript", "PHP Frameworks", "JQuery"],
     "position": "Senior Backend Developer, CTO"
   },
   {
@@ -85,7 +85,7 @@
     "name" : "Nika Gogitidze",
     "linkedIn": "https://www.linkedin.com/in/nicolas-gogitidze-8b1532229/",
     "git": "https://github.com/Nicolas-ggd",
-    "image": "zura.png",
+    "image": "niki.jpg",
     "skills": ["HTML5", "CSS", "Git", "Javascript", "React.Js", "Next.Js", "Node.Js", "MongoDB", "jQuery", "OOP", "Redux", "SQL", "Vue.Js"],
     "position": "Middle Full Stack Developer"
   },
