@@ -131,10 +131,12 @@ export default {
     },
   },
   async mounted() {
-    await this.myScene();
-    await this.animate();
-    window.addEventListener("resize", this.onWindowResize, false);
-    window.addEventListener("pointermove", this.onPointerMove);
+    if(window.innerWidth > 1023){
+      await this.myScene();
+      await this.animate();
+      window.addEventListener("resize", this.onWindowResize, false);
+      window.addEventListener("pointermove", this.onPointerMove);
+    }
   },
 };
 </script>
@@ -145,5 +147,10 @@ export default {
   position: fixed;
   pointer-events: none;
   z-index: 10;
+}
+@media (max-width: 1023px) {
+  #webgl-brush {
+    display: none;
+  }
 }
 </style>

@@ -29,11 +29,11 @@
       "main": "coremultichain/main.png",
       "sub": [
         {
-          "path": "coremultichain/secondary1.jpeg",
+          "path": "coremultichain/secondary1.png",
           "bg": "linear-gradient(150.79deg, #131A31 15.16%, #2A3356 94.03%)"
         },
         {
-          "path": "coremultichain/secondary2.jpeg",
+          "path": "coremultichain/secondary2.png",
           "bg": "linear-gradient(126.3deg, #2A1430 0%, #1B273E 100%)"
         },
         {
