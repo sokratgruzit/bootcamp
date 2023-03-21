@@ -25,7 +25,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["VueJs","Laravel", "MySQL"],
+    "tech": ["Figma","UX/UI", "VueJs","Laravel", "MySQL"],
     "descrName": "CORE— is Multi Chain PoS Network focused on Interoperability, Scalability and Usability. It utilizes AI Enabled Proof of Stake Algorithm, Multi Layered Consensus Model and Voting Based Governance.",
     "descr": "It would attain higher level of Scalability using Advanced Sharding along with Pipelining and Chunking and Parallel Transaction Processing. These technologies have made it possible for the CORE network to be infinitely scalable and to achieve significantly higher throughput and efficiency.",
     "link": "https://coremultichain.com/",
@@ -76,7 +76,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["VueJs","Laravel", "MySQL", "Moralis", "Web3"],
+    "tech": ["Figma","UX/UI", "VueJs","Laravel", "MySQL", "Moralis", "Web3"],
     "descrName": "Core Growth - Comprehensive Data and Charts for CMCX Token",
     "descr": "Core Growth is a web platform that provides valuable information and data analysis for the CMCX token in the cryptocurrency market. The platform displays charts and data for market information, staking, staker records, transfers, Google Analytics, GitHub activity, user activity by country, holders, and DEX transactions. With its comprehensive data coverage and user-friendly interface, Core Growth is a must-have tool for anyone interested in the CMCX token and the cryptocurrency industry as a whole.",
     "link": "https://growth.coremultichain.com/",
@@ -127,7 +127,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["VueJS","NodeJs", "Web3", "Solidity"],
+    "tech": ["Figma","UX/UI", "VueJS","NodeJs", "MongoDB","Web3", "Solidity"],
     "descrName": "Core Block Testnet Explorer - Access CMCX Coin Blockchain Data",
     "descr": " Core Block Explorer is a website that provides access to blockchain data associated with the CMCX testnet Coin. The website displays block and transaction information, a list of available tokens, and API endpoints to retrieve blockchain data connected to this coin. With its user-friendly interface and comprehensive data coverage, Core Block Explorer is a valuable tool for anyone interested in exploring the CMCX Coin Blockchain.",
     "link": "https://dejavu-testnet.coremultichain.com/",
@@ -178,7 +178,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["VueJS","Larvel"],
+    "tech": ["Figma","UX/UI", "VueJS","Larvel"],
     "descrName": "Core Academy - Online Platform for Blockchain Education",
     "descr": "Core Academy is an online platform that provides courses, tutorials, and educational resources on various topics related to blockchain technology and cryptocurrency. With courses covering blockchain fundamentals, smart contracts, DeFi, and cryptocurrency trading, Core Academy aims to offer a comprehensive learning experience that is accessible to beginners and valuable to experienced blockchain enthusiasts. Whether you're looking to learn the basics of blockchain or keep up-to-date with the latest industry developments, Core Academy is a valuable resource for anyone interested in blockchain technology.",
     "link": "https://coreacademy.xyz/",
@@ -268,7 +268,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["Figma","UX/UI"],
+    "tech": ["Figma","UX/UI", "React", "Web3", "Solidity", "Smart Contracts", "Blockchain"],
     "descrName": "Core Staking | Stake and Earn CMCX Tokens Every Second",
     "descr": "Core Staking is a user-friendly website that allows users to stake and harvest their rewards with MetaMask or Wallet Connect using CMCX tokens. With the platform, users receive rewards every second, giving them a steady stream of passive income. The staking process is straightforward, and users can stake and unstake their tokens anytime they want, without any lock-up periods or withdrawal fees. The platform's real-time monitoring system provides complete transparency and control over the rewards and earnings.",
     "link": "https://dapp.coremultichain.com/",
@@ -319,7 +319,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["Figma","UX/UI"],
+    "tech": ["Figma","UX/UI", "Laravel", "ThreeJs", "Blockchain", "Web3"],
     "descrName": "The CMCX Token",
     "descr": "The CMCX token is native to the CORE platform and allows users to transact with other users on the blockchain, as well as pay for all of the utility fees in the ecosystem. CORE is governed by anyone who owns CORE's native token (CMCX) in a fair and transparent way. It can be used for governance, staking, transactions, smart contracts and validator rewards on the platform.",
     "link": "https://cmcx.io/",
