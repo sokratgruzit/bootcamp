@@ -23,7 +23,7 @@
     "linkedIn": "https://www.linkedin.com/in/sergo-shishmanidze-7b8283153/",
     "git": "https://github.com/yoozap",
     "image": "mucho.png",
-    "skills": ["Vue.Js", "React.Js", "Node.Js", "Three.Js", "Javascript", "HTML5", "CSS", "Vuex", "Laravel"],
+    "skills": ["Vue.Js", "React.Js", "Node.Js", "Three.Js", "Javascript", "HTML5", "CSS", "SASS", "Laravel"],
     "position": "Senior Frontend Developer"
   },
   {
@@ -41,7 +41,7 @@
     "linkedIn": "https://www.linkedin.com/in/nutsa-kashmadze-69638a16b/",
     "git": "https://github.com/Beam19",
     "image": "nuca.png",
-    "skills": ["Trello", "Excel", "Git"],
+    "skills": ["Gira","Trello","Figma", "Excel", "Git", "HTML", "CSS"],
     "position": "Project Manager"
   },
   {
