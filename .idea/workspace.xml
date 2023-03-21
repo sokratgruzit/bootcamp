@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52387201-253f-441e-85d8-b210809b64e6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/team.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/team.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/work.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/work.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ContactBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ContactBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/parts/BecomeMember.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/parts/BecomeMember.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/parts/BecomeMember2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/parts/BecomeMember2.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
       <workItem from="1679047921588" duration="3519000" />
       <workItem from="1679219610783" duration="3730000" />
       <workItem from="1679230981705" duration="11600000" />
-      <workItem from="1679385894478" duration="8123000" />
+      <workItem from="1679385894478" duration="8656000" />
     </task>
     <servers />
   </component>

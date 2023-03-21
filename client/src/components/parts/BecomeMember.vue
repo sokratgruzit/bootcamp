@@ -1,5 +1,5 @@
 <template>
-	<div class="become-member">
+	<a href="mailto:index@hypercubic.tech" target="_blank" class="become-member">
 		<div class="spin-wrap">
 			<div class="spin-anim">
 				<svg class="spin" width="140" height="140" viewBox="0 0 131 125" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +65,7 @@
 			</clipPath>
 			</defs>
 		</svg>
-	</div>
+	</a>
 </template>
 
 <style lang="scss" scoped>
@@ -85,14 +85,14 @@
 			animation-name: spin;
 			animation-duration: 20s;
 			animation-iteration-count: infinite;
-			animation-timing-function: linear; 
+			animation-timing-function: linear;
 		}
 		.spin-anim{
 			display: block;
 			animation-name: spin;
 			animation-duration: 4s;
 			animation-iteration-count: infinite;
-			animation-timing-function: linear; 
+			animation-timing-function: linear;
 			animation-play-state: paused;
 		}
 

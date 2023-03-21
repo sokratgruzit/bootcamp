@@ -5,7 +5,7 @@
 		</div>
 		<marquee-text :repeat="20">
 		  	{{ $t("contact") }}
-		</marquee-text>  
+		</marquee-text>
 		<div class="sm-container">
 			<div class="inner">
 				<div class="head">
@@ -26,7 +26,7 @@
 				</div>
 				<BecomeMember class="animate fade-in deley-3"/>
 				<div class="info">
-					<a class="email animate fade-up deley-4" href="mailto:HELLO@HYPERCUBIC.COM">{{_.get(contentData, 'contact_email')}}</a>
+					<a class="email animate fade-up deley-4" href="mailto:index@hypercubic.tech">{{_.get(contentData, 'contact_email')}}</a>
 					<!-- <a class="number animate fade-up deley-5" href="tel:+995 111 22 33 44">+995 111 22 33 44</a> -->
 				</div>
 			</div>
@@ -50,10 +50,10 @@
 			}
 		},
 		async mounted() {
-		
+
 		},
 		computed: {
-			contentData(){ 
+			contentData(){
 				return this.$store.getters.mainPageData;
 			},
 		},
@@ -68,9 +68,9 @@
 					}
 				}
 			}
-		}, 
+		},
 		methods: {
-		
+
 		}
 	}
 </script>
