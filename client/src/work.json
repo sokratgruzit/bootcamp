@@ -127,7 +127,7 @@
         "text": "Nutsa Kashmadze"
       }
     ],
-    "tech": ["Figma","UX/UI", "VueJS","NodeJs", "MongoDB","Web3", "Solidity"],
+    "tech": ["Figma","UX/UI", "VueJS","NodeJs","ThreeJs", "MongoDB","Web3", "Solidity"],
     "descrName": "Core Block Testnet Explorer - Access CMCX Coin Blockchain Data",
     "descr": " Core Block Explorer is a website that provides access to blockchain data associated with the CMCX testnet Coin. The website displays block and transaction information, a list of available tokens, and API endpoints to retrieve blockchain data connected to this coin. With its user-friendly interface and comprehensive data coverage, Core Block Explorer is a valuable tool for anyone interested in exploring the CMCX Coin Blockchain.",
     "link": "https://dejavu-testnet.coremultichain.com/",
