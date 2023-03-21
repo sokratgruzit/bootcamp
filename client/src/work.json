@@ -186,5 +186,142 @@
       "web": "coreacademy/web.png",
       "style": "coreacademy/style.jpeg"
     }
+  },
+  {
+    "id": 5,
+    "name": "Core Wallet Mobile Application",
+    "title": "CORE Wallet <br/> Mobile Application",
+    "team": [
+      {
+        "name": "Product:",
+        "text": "CORE Academy"
+      },
+      {
+        "name": "UI/UX Designer:",
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
+      },
+      {
+        "name": "Front-End Developer",
+        "text": "David Tavadze, Sergo Shishmanidze"
+      },
+      {
+        "name": "Back-End Developer",
+        "text": "Mariam Talakhadze"
+      }
+    ],
+    "tech": ["Figma","UX/UI"],
+    "descrName": "Core Academy - Online Platform for Blockchain Education",
+    "descr": "Core Academy is an online platform that provides courses, tutorials, and educational resources on various topics related to blockchain technology and cryptocurrency. With courses covering blockchain fundamentals, smart contracts, DeFi, and cryptocurrency trading, Core Academy aims to offer a comprehensive learning experience that is accessible to beginners and valuable to experienced blockchain enthusiasts. Whether you're looking to learn the basics of blockchain or keep up-to-date with the latest industry developments, Core Academy is a valuable resource for anyone interested in blockchain technology.",
+    "link": "https://play.google.com/store/apps/details?id=com.corewallet",
+    "images": {
+      "main": "corewallet/main.png",
+      "sub": [
+        {
+          "path": "corewallet/secondary1.png",
+          "bg": "linear-gradient(150.79deg, #131A31 15.16%, #2A3356 94.03%)"
+        },
+        {
+          "path": "corewallet/secondary2.png",
+          "bg": "linear-gradient(126.3deg, #2A1430 0%, #1B273E 100%)"
+        },
+        {
+          "path": "corewallet/secondary3.png",
+          "bg": "linear-gradient(180deg, #3A216F 0%, #18234D 100%)"
+        }
+      ],
+      "middle": "corewallet/main2.png",
+      "web": "corewallet/web.png",
+      "style": "corewallet/style.jpeg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Core Stacking",
+    "title": "CORE <br/> Stacking",
+    "team": [
+      {
+        "name": "Product:",
+        "text": "CORE Academy"
+      },
+      {
+        "name": "UI/UX Designer:",
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
+      },
+      {
+        "name": "Front-End Developer",
+        "text": "David Tavadze, Sergo Shishmanidze"
+      },
+      {
+        "name": "Back-End Developer",
+        "text": "Mariam Talakhadze"
+      }
+    ],
+    "tech": ["Figma","UX/UI"],
+    "descrName": "Core Academy - Online Platform for Blockchain Education",
+    "descr": "Core Academy is an online platform that provides courses, tutorials, and educational resources on various topics related to blockchain technology and cryptocurrency. With courses covering blockchain fundamentals, smart contracts, DeFi, and cryptocurrency trading, Core Academy aims to offer a comprehensive learning experience that is accessible to beginners and valuable to experienced blockchain enthusiasts. Whether you're looking to learn the basics of blockchain or keep up-to-date with the latest industry developments, Core Academy is a valuable resource for anyone interested in blockchain technology.",
+    "link": "https://dapp.coremultichain.com/",
+    "images": {
+      "main": "corestacking/main.png",
+      "sub": [
+        {
+          "path": "corestacking/secondary1.png",
+          "bg": "linear-gradient(150.79deg, #131A31 15.16%, #2A3356 94.03%)"
+        },
+        {
+          "path": "corestacking/secondary2.png",
+          "bg": "linear-gradient(126.3deg, #2A1430 0%, #1B273E 100%)"
+        },
+        {
+          "path": "corestacking/secondary3.png",
+          "bg": "linear-gradient(180deg, #3A216F 0%, #18234D 100%)"
+        }
+      ],
+      "middle": "corestacking/main2.png",
+      "web": "corestacking/web.png",
+      "style": "corestacking/style.jpeg"
+    }
+  },
+  {
+    "id": 7,
+    "name": "CMCX Contribution Platform",
+    "title": "CORE <br/> Contribution Platform",
+    "team": [
+      {
+        "name": "Product:",
+        "text": "CORE Academy"
+      },
+      {
+        "name": "UI/UX Designer:",
+        "text": "Giorgi Jamaspishvili, Otar Davitashvili"
+      },
+      {
+        "name": "Front-End Developer",
+        "text": "David Tavadze, Sergo Shishmanidze"
+      },
+      {
+        "name": "Back-End Developer",
+        "text": "Mariam Talakhadze"
+      }
+    ],
+    "tech": ["Figma","UX/UI"],
+    "descrName": "Core Academy - Online Platform for Blockchain Education",
+    "descr": "Core Academy is an online platform that provides courses, tutorials, and educational resources on various topics related to blockchain technology and cryptocurrency. With courses covering blockchain fundamentals, smart contracts, DeFi, and cryptocurrency trading, Core Academy aims to offer a comprehensive learning experience that is accessible to beginners and valuable to experienced blockchain enthusiasts. Whether you're looking to learn the basics of blockchain or keep up-to-date with the latest industry developments, Core Academy is a valuable resource for anyone interested in blockchain technology.",
+    "link": "https://cmcx.io/",
+    "images": {
+      "main": "corecmcx/main.png",
+      "sub": [
+        {
+          "path": "corecmcx/secondary1.png",
+          "bg": "linear-gradient(150.79deg, #131A31 15.16%, #2A3356 94.03%)"
+        },
+        {
+          "path": "corecmcx/secondary2.png",
+          "bg": "linear-gradient(126.3deg, #2A1430 0%, #1B273E 100%)"
+        }
+      ],
+      "middle": "corecmcx/main2.png",
+      "web": "corecmcx/web.png",
+      "style": "corecmcx/style.jpeg"
+    }
   }
 ]
