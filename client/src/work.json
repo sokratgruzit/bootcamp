@@ -282,10 +282,6 @@
         {
           "path": "corestacking/secondary2.png",
           "bg": "linear-gradient(126.3deg, #2A1430 0%, #1B273E 100%)"
-        },
-        {
-          "path": "corestacking/secondary3.png",
-          "bg": "linear-gradient(180deg, #3A216F 0%, #18234D 100%)"
         }
       ],
       "middle": "corestacking/main2.png",
