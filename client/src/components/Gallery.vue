@@ -508,7 +508,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
   z-index: 99;
   max-width: 334px !important;
   margin-top: 80px !important;
@@ -520,6 +519,8 @@ export default {
   }
   @media (max-width: 767px) {
     max-width: 180px !important;
+    bottom: 10%;
+    top: auto;
   }
   &-item {
     display: flex;
@@ -592,7 +593,7 @@ export default {
 }
 .gallery-section {
   position: relative;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-left: 334px;
   @media (max-width: 1599px) {
     padding-left: 280px;
@@ -609,11 +610,12 @@ export default {
     opacity: 0.1;
     text-transform: uppercase;
     left: -100px;
+    top: -30px;
     letter-spacing: 40px;
     will-change: transform;
     transition: 1s;
     transition-delay: 0.2s;
-    @media (max-width: 1599px) {
+    @media (max-width: 1699px) {
       font-size: 150px;
       letter-spacing: 35px;
     }

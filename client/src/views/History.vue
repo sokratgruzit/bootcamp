@@ -31,6 +31,9 @@ export default {
   position: relative;
   z-index: 99;
   padding-bottom: 80px;
+  @media (max-width: 1023px) {
+    padding-bottom: 250px;
+  }
   &::after {
     content: "";
     position: fixed;
