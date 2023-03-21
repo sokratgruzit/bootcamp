@@ -14,7 +14,7 @@
     "linkedIn": "https://www.linkedin.com/in/mariamtalakhadze/",
     "git": "https://github.com/MarkoPolo88",
     "image": "mariam.png",
-    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "web3.js", "Web3", "Github", "Google Analytics", "Ethereum", "Smart Contracts", "Git", "OOP", "MVC", "Bitbucket","Web Development","PHP", "Javascrypt", "PHP Frameworks","AJAX", "JQuery"],
+    "skills": ["Laravel", "Node.Js", "Blockchain", "MongoDB","MySQL", "web3.js", "Web3", "Git", "Google Analytics", "Ethereum", "Smart Contracts", "Github", "OOP", "MVC", "Bitbucket","Web Development","PHP", "Javascrypt", "PHP Frameworks","AJAX", "JQuery"],
     "position": "Senior Backend Developer, CTO"
   },
   {
@@ -104,7 +104,7 @@
     "linkedIn": "https://www.linkedin.com/in/nino-talakhadze-844b27226",
     "git": "https://github.com/NTsloth",
     "image": "nino.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Git", "Figma"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -113,7 +113,7 @@
     "linkedIn": "https://www.linkedin.com/in/salo-chkhartishvili-770369250/",
     "git": "https://github.com/SaloChkhartishvili",
     "image": "salo.png",
-    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js"],
+    "skills": ["HTML5", "CSS", "SASS", "Javascript", "React.Js", "Next.Js", "Figma" , "Git"],
     "position": "Junior Frontend Developer"
   },
   {
@@ -127,7 +127,7 @@
   },
   {
     "id": 13,
-    "name" : "Bejan Khalichava",
+    "name" : "Bezhan Khalichava",
     "linkedIn": "https://www.linkedin.com/in/bezhan-kalichava-24864120a/",
     "git": "https://github.com/aLLod1n",
     "image": "bejo.png",
@@ -154,7 +154,7 @@
   },
   {
     "id": 16,
-    "name" : "Cotne Khulordava",
+    "name" : "Tsotne Khulordava",
     "linkedIn": "https://www.linkedin.com/in/tsotne-khulordava-6a840b249/",
     "git": "https://github.com/EntostGardener?tab=repositories",
     "image": "cotna.png",
