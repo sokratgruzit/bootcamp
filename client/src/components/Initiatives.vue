@@ -1,7 +1,11 @@
 <template>
   <section id="initiatives-container" class="initiatives-section">
     <div class="container">
-      <div id="scroll-sphere" class="initiatives-img"></div>
+      <div id="scroll-sphere" class="initiatives-img">
+        <img :src="require(`@/assets/img/spheres/sphere1.png`)" alt="sphere" :class="currentIndx == 0 ? 'active' : ''"/>
+        <img :src="require(`@/assets/img/spheres/sphere2.png`)" alt="sphere" :class="currentIndx == 1 ? 'active' : ''"/>
+        <img :src="require(`@/assets/img/spheres/sphere3.png`)" alt="sphere" :class="currentIndx == 2 ? 'active' : ''"/>
+      </div>
       <div class="initiatives-slider">
         <div
           v-swiper:mySwiper="swiperOption"
@@ -156,7 +160,7 @@ export default {
         },
       },
     };
-  }, 
+  },
   watch: {
     windowWidth: {
       immediate: true,
@@ -230,7 +234,7 @@ export default {
     padding: 150px 0;
   }
   @media (max-width: 767px) {
-    padding: 120px 0;
+    padding: 50px 0;
   }
   .elem{
     position: relative;
@@ -242,19 +246,37 @@ export default {
     flex-shrink: 0;
     max-width: 686px;
     width: 45%;
+    padding-top: 30%;
+    position: relative;
     z-index: 9;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: flex-end;
     height: 0;
+    img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      transition: 0.6s cubic-bezier(0.79, 0.01, 0.15, 0.99);
+      transform: scale(.9);
+      opacity: 0;
+      &.active {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
     @media (max-width: 767px) {
       display: block;
-      width: 280px;
+      width: 100%;
       height: 1px;
       align-self: center;
-      margin: 320px auto 0;
+      padding-top: 60%;
       flex-shrink: unset;
+      margin-bottom: 50px;
     }
   }
   .initiatives-slider {

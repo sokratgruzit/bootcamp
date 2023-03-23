@@ -8,44 +8,34 @@
         <div class="right">
           <nav class="menu">
             <ul>
-              <li>
-                <router-link :to="{ name: 'History' }">
-                  <span>History</span>
+              <li v-if="$route.name !== 'Home'">
+                <router-link :to="{ name: 'Work' }">
+                  <span>Portfolio</span>
                 </router-link>
               </li>
               <li class="back" v-if="$route.name != 'Home'">
-                <router-link :to="'/'">
+                <a @click="$router.go(-1)">
                   <span>Back</span>
-                </router-link>
+                </a>
               </li>
             </ul>
           </nav>
           <div class="side">
             <nav class="navigation" v-if="$route.name === 'Home'">
               <ul>
-                <li class="remove-on-resp">
-                  <router-link :to="{ query: {section: 'About'} }" @click.native="handleClick('About')">
-                    <span>{{ $t("about") }}</span>
-                  </router-link>
-                </li>
-                <li class="remove-on-resp">
-                  <router-link :to="{ query: {section: 'Focus'} }" @click.native="handleClick('Focus')">
-                    <span>{{ $t("focus") }}</span>
-                  </router-link>
-                </li>
-                <li class="remove-on-resp">
+                <li>
                   <router-link :to="{ name: 'Work' }">
-                    <span>{{ $t("work") }}</span>
+                    <span>{{ $t("portfolio") }}</span>
                   </router-link>
                 </li>
-                <li class="remove-on-resp">
+                <li>
                   <router-link :to="{ name: 'Team' }">
                     <span>{{ $t("team") }}</span>
                   </router-link>
                 </li>
                 <li>
-                  <router-link :to="{ query: {section: 'Contact'} }" @click.native="handleClick('Contact')">
-                    <span>{{ $t("contact") }}</span>
+                  <router-link :to="{ name: 'History' }">
+                    <span>{{ $t("history") }}</span>
                   </router-link>
                 </li>
               </ul>
@@ -128,6 +118,7 @@ header.scrolled.show{
       position: relative;
       display: inline-flex;
       padding-left: 12px;
+      cursor: pointer;
       span {
         line-height: 18px;
         text-transform: uppercase;

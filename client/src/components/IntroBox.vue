@@ -35,7 +35,7 @@
 							<div class="tassel animate fade-up">
 								<img :src="require('@/assets/img/tassel1.png')" alt="tassel"/>
 							</div>
-						</div> 
+						</div>
 						<p class="animate fade-up delay-1" v-html="contentData.intro_text1"></p>
 						<div class="move-up-wrap">
 							<h2 class="f-display ttl animate move-up delay-2">{{title[1]}}</h2>
@@ -82,7 +82,7 @@
 		computed: {
 			contentData(){
 				return this.$store.getters.mainPageData;
-			}, 
+			},
 		},
 		watch: {
 			'contentData.intro_title':{
@@ -97,10 +97,10 @@
 			}
 		},
 		methods: {
-			
+
 		}
-	}  
-</script> 
+	}
+</script>
 <style lang="scss" scoped>
 	#scroll-rock-hand{
 		position: absolute;
@@ -183,12 +183,12 @@
 	.text-tablet{
 		display: none;
 		margin-top: 56px;
-	
+
 		.content{
 			max-width: 343px;
 		}
 		.become-member{
-			display: inline-block; 
+			display: inline-block;
 			margin-top: -14px;
 			margin-right: 50px;
 			margin-left: auto;
@@ -302,7 +302,7 @@
 			text-align: center;
 		}
 		.main{
-			padding-top: 290px;
+			padding-top: 0px;
 		}
 		.middle{
 			position: initial;

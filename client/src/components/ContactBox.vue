@@ -96,11 +96,17 @@
 	.marquee-text-wrap{
 		margin: 100px 0;
 		cursor: pointer;
+    @media (max-width: 767px) {
+      margin: 50px 0;
+    }
 	}
 	.contact-box{
 		position: relative;
 		padding-bottom: 100px;
 		overflow: hidden;
+    @media (max-width: 767px) {
+      padding-bottom: 50px;
+    }
 	}
 	.bg-shape{
 		position: absolute;
@@ -151,7 +157,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-
+    @media(max-width: 767px){
+      margin-top: 30px;
+    }
 		.email{
 			position: relative;
 			@extend %medium;
@@ -202,7 +210,7 @@
 	@media(max-width: 767px){
 		.head{
 			flex-direction: column;
-			margin-top: 180px;
+			margin-top: 50px;
 			justify-content: center;
 			align-items: center;
 

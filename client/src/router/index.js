@@ -56,12 +56,12 @@ const routes = [
     component: load("Team"),
   },
   {
-    path: "/work",
+    path: "/portfolio",
     name: "Work",
     component: load("Work"),
   },
   {
-    path: "/work/:id",
+    path: "/portfolio/:id",
     name: "Project",
     component: load("Project"),
   },

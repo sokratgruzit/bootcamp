@@ -2,7 +2,7 @@
   <div class="work-container">
     <div class="container">
       <div class="top">
-        <h1>Work</h1>
+        <h1>Portfolio</h1>
         <div class="top-item">
           <BecomeMember />
         </div>
@@ -10,7 +10,7 @@
     </div>
     <div class="items-wrap">
       <router-link
-        :to="`/work/${item.id}`"
+        :to="`/portfolio/${item.id}`"
         class="main-item"
         v-for="(item, index) in items"
         :key="index"
