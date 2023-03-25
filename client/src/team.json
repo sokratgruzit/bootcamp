@@ -45,15 +45,6 @@
     "position": "Project Manager"
   },
   {
-    "id": 6,
-    "name" : "David Geliashvili",
-    "linkedIn": "https://www.linkedin.com/in/dato-geliashvili-846b4b25a/",
-    "git": "https://github.com/keksik95",
-    "image": "opo.png",
-    "skills": ["HTML5", "CSS", "SASS", "React.Js", "Next.Js", "Javascript", "Git", "Figma", "Redux"],
-    "position": "Middle Full Stack Developer"
-  },
-  {
     "id": 7,
     "name" : "Nika Eqizashvili",
     "linkedIn": "https //www.linkedin.com/in/nika-ekizashvili-a0b928211",
@@ -161,4 +152,5 @@
     "skills": ["HTML5", "CSS", "Javascript", "React.Js", "Figma", "Git"],
     "position": "Junior Frontend Developer"
   }
+  
 ]
