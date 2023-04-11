@@ -113,13 +113,14 @@ export default {
     },
   },
   methods: {
-    ...mapActions(["getHomPageApi", "getStrategyApi", "getAdvantageApi", "getHistoryApi"]),
+    ...mapActions(["getHomPageApi", "getStrategyApi", "getAdvantageApi", "getHistoryApi", "getServicesApi"]),
     async handleFetchTweets() {
       try {
         await this.getHomPageApi();
         await this.getStrategyApi();
         await this.getAdvantageApi();
         await this.getHistoryApi();
+        await this.getServicesApi();
       } catch (error) {
         console.log(error);
       } finally {
