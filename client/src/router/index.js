@@ -65,6 +65,11 @@ const routes = [
     name: "Project",
     component: load("Project"),
   },
+  {
+    path: "/services",
+    name: "Services",
+    component: load("Services"),
+  },
   // {
   //   path: "/project",
   //   name: "Project",
