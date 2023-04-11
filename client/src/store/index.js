@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import home_page from './modules/home_page';
 import strategy from './modules/strategy';
+import services from './modules/services';
 import advantage from './modules/advantage';
 import history from './modules/history';
 import quizz from './modules/quizz'; 
@@ -63,7 +64,8 @@ export default new Vuex.Store({
     strategy,
     advantage,
     history,
-    quizz
+    quizz,
+    services
   }
 })
 
