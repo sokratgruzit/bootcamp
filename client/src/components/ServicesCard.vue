@@ -112,4 +112,23 @@ export default {
     top: 150px;
     z-index: 1;
 }
+
+@media (max-width: 767px) {
+    .card-body {
+        margin: 32px 32px 0 32px;
+
+        .content {
+            font-size: 28px;
+        }
+    }
+}
+
+
+@media (max-width: 425px) {
+    .card-body {
+        .content {
+            font-size: 24px;
+        }
+    }
+}
 </style>

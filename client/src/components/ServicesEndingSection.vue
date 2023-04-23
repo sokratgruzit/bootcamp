@@ -46,4 +46,26 @@ export default {
     line-height: 38px;
     text-align: center;
 }
+
+@media (max-width: 950px) {
+    .ending-content {
+        margin: 0 140px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ending-content {
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .ending-content {
+        margin: 0 50px !important;
+
+        .ending-text {
+            font-size: 24px;
+        }
+    }
+}
 </style>

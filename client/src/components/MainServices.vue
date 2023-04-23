@@ -14,9 +14,6 @@
                     <img :src="require('@/assets/img/services/SeparateLines.svg')" />
                 </div>
 
-                <!-- <div v-if="svgs[index]"> -->
-
-                <!-- </div> -->
                 <div v-if="svgs[index]" v-for="key in svgs[index]" >
                     <img v-if="key.url" :src="require(`@/assets/img/services/${key.url}`)" :class="key.classes" />
                 </div>
@@ -116,7 +113,7 @@ export default {
     width: 100%;
     height: auto;
     margin-top: 191px;
-    border: 1px solid black;
+    border: 1px solid #fff0;
 }
 
 .main-content {
@@ -127,19 +124,19 @@ export default {
 
     .stain {
         position: absolute;
-        right: 210px;
-        top: 480px;
+        right: 11%;
+        top: 83%;
     }
 
     .left-blocks {
         position: absolute;
-        top: 20px;
-        left: 35px;
+        top: 3%;
+        left: 2%;
     }
 
     .right-blocks {
         position: absolute;
-        top: 40px;
+        top: 6%;
         right: 60px;
     }
 
@@ -203,51 +200,62 @@ export default {
 
 .brush {
     position: absolute;
-    top: -80px;
+    // top: -80px;
+    top: -13%;
 }
 
 .graphics-globe {
     position: absolute;
     z-index: 999;
     right: 23px;
-    bottom: -195px;
+    // bottom: -195px;
+    top: 99%;
 }
 
 .graphics-lines {
     position: absolute;
     z-index: 999;
     right: 0px;
-    top: 500px;
+    // top: 500px;
+    top: 87%;
 }
 
 .separate-left-line {
     position: absolute;
     z-index: 999;
     left: 0px;
-    top: 417px;
+    // top: 417px;
+    top: 73%;
 }
 
 .stain-bg {
     position: absolute;
-    left: 925px;
-    top: 490px;
+    // left: 925px;
+    left: 48%;
+    // top: 490px;
+    top: 73%;
 }
 
 .bg-brush {
     position: absolute;
-    top: -235px;
-    left: -18px;
+    // top: -235px;
+    top: -35%;
+    // left: -18px;
+    left: -1%;
+    width: 550px;
 }
 
 .line-globe {
     position: absolute;
-    top: -200px;
+    // top: -200px;
+    top: -30%;
     left: 30px;
 }
 
 .extreme-separate-line {
     position: absolute;
-    top: 470px;
+    // top: 470px;
+    top: 70%;
     left: -20px;
 }
 
@@ -256,5 +264,166 @@ export default {
     bottom: -170px;
     right: 7px;
     width: 270px;
+}
+
+.line-first {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    .graphics-lines {
+        top: 95%;
+        width: 270px;
+    }
+    .separate-left-line {
+        top: 91%;
+        width: 270px;
+    }
+    .bg-brush {
+        top: -15%;
+        width: 450px;
+    }
+    .line-globe {
+        top: -16%;
+        width: 360px;
+    }
+    .extreme-separate-line {
+        top: 88%;
+        width: 270px;
+    }
+    .main-text {
+        font-size: 34.5px;
+    }
+}
+
+@media (max-width: 950px) {
+    .main-text-container {
+        margin: 0 100px;
+    }
+    .main-title {
+        font-size: 90px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-text-container {
+        margin: 0 100px;
+
+        .main-text {
+            font-size: 28px;
+        }
+    }
+
+    .brush {
+        width: 280px;
+    }
+
+    .main-header {
+        font-size: 90px;
+    }
+
+    .graphics-globe {
+        top: 102%;
+        width: 150px;
+    }
+
+    .graphics-lines {
+        top: 99%;
+        width: 200px;
+    }
+
+    // .graphics-lines {
+    //     top: 900px;
+    //     width: 270px;
+    // }
+
+    // .stain {
+    //     left: 150px;
+    // }
+
+    // .separate-left-line {
+    //     width: 270px;
+    //     top: 910px;
+    // }
+
+    // .left-blocks {
+    //     top: 100px;
+    //     left: 0px;
+    //     width: 400px;
+    // }
+
+    // .bg-brush {
+    //     width: 420px;
+    //     top: -110px;
+    // }
+
+    // .line-globe {
+    //     width: 320px;
+    //     top: -150px;
+    // }
+
+    // .right-blocks {
+    //     top: 90px;
+    //     width: 380px;
+    // }
+
+    // .steel-arrows {
+    //     bottom: -152px;
+    //     right: -7px;
+    //     width: 200px;
+    // }
+
+    // .extreme-separate-line {
+    //     top: 1045px;
+    //     width: 280px;
+    // }
+}
+
+@media (max-width: 425px) {
+    .brush {
+        width: 180px;
+        top: -3%;
+    }
+    .main-text-container {
+        margin: 0 50px;
+
+        .main-text {
+            font-size: 24px;
+        }
+    }
+    .graphics-lines {
+        width: 160px;
+    }
+    .separate-left-line {
+        top: 97%;
+        width: 200px;
+    }
+    .bg-brush {
+        top: -6%;
+        width: 300px;
+    }
+    .line-globe {
+        top: -8%;
+        width: 200px;
+    }
+    .extreme-separate-line {
+        top: 96%;
+        width: 200px;
+    }
+    .steel-arrows {
+        bottom: -142px;
+        right: 4px;
+        width: 170px;
+    }
+    .main-title {
+        font-size: 70px !important;
+    }
+}
+
+@media (max-width: 395px) {
+    .separate-lines img{
+        width: 70%;
+    }
 }
 </style>

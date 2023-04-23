@@ -7,14 +7,14 @@
                     <p class="services-text animate fade-up deley-2">{{ text.service_text }}</p>
                 </div>
                 <div class="services-container">
-                    <p class="services-text animate fade-up deley-2">{{ text.service_second_text }}</p>
+                    <p class="services-text second-text animate fade-up deley-2">{{ text.service_second_text }}</p>
                 </div>
             </div>
             <div class="bg-wrapper">
-                <img v-if="text.service_title" :src="require('@/assets/img/services/HeaderBlock.svg')"/>
+                <img v-if="text.service_title" :src="require('@/assets/img/services/HeaderBlock.svg')" />
             </div>
             <div class="line" v-if="text.service_title">
-                <img :src="require('@/assets/img/services/Group772.svg')" class="line-wrapper animate fade-up delay-2"/>
+                <img :src="require('@/assets/img/services/Group772.svg')" class="line-wrapper animate fade-up delay-2" />
             </div>
         </template>
     </div>
@@ -72,68 +72,89 @@ export default {
 <style lang="scss" scoped>
 .services-section {
     position: relative;
-}
 
-.services-content {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-.services-container {
-    width: auto;
-    margin: 0 184px;
-    margin-bottom: 24px;
-}
-
-.services-text {
-    font-family: 'Skeena';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30.5px;
-    line-height: 38px;
-    text-align: center;
-}
-
-.arrow-container {
-    position: absolute;
-    top: 70px;
-    left: 70px;
-}
-
-.reverse-arrow {
-    position: absolute;
-    right: 44px;
-    bottom: 0px;
-}
-
-.line {
-    width: 100%;
-    margin: 0px 0px 32px 0px;
-
-    .line-wrapper {
-        margin: 0 auto;
-        display: flex;
+    .services-content {
+        width: 100%;
+        height: auto;
+        position: relative;
     }
 
+    .services-container {
+        width: auto;
+        margin: 0 184px;
+        margin-bottom: 24px;
+    }
+
+    .services-text {
+        font-family: 'Skeena';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30.5px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        margin: 32px 0px 0px 0px;
+
+        .line-wrapper {
+            margin: 0 auto;
+            display: flex;
+        }
+
+    }
+
+    .services-title {
+        font-family: 'Skeena';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48.5px;
+        line-height: 38px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        letter-spacing: 0.08em;
+    }
+
+    .bg-wrapper {
+        position: absolute;
+        top: 110px;
+        left: -25px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .second-text {
+        margin-top: 24px;
+    }
 }
 
-.services-title {
-    font-family: 'Skeena';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48.5px;
-    line-height: 38px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    letter-spacing: 0.08em;
+@media (max-width: 1200px) {
+    .bg-wrapper {
+        display: none;
+    }
+    .services-container {
+        margin: 0 140px !important;
+    }
 }
-.bg-wrapper {
-    position: absolute;
-    top: 110px;
-    left: -25px;
-    width: 100%;
-    z-index: 999;
+
+@media (max-width: 767px) {
+    .services-container {
+        margin: 0 100px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .services-container {
+        margin: 0 50px !important;
+
+        .services-text {
+            font-size: 24px;
+        }
+    }
+    .main-title {
+        font-size: 65px;
+    }
 }
 </style>
