@@ -44,28 +44,33 @@ export default {
     font-weight: 400;
     font-size: 30.5px;
     line-height: 38px;
-    text-align: center;
+    text-align: left;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1300px) {
+    .ending-text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
     .ending-content {
-        margin: 0 140px;
+        margin: 0 70px;
+    }
+    .ending-text {
+        line-height: 33px;
     }
 }
 
 @media (max-width: 767px) {
     .ending-content {
-        margin: 0 100px;
+        margin: 0 20px;
     }
 }
 
 @media (max-width: 425px) {
-    .ending-content {
-        margin: 0 50px !important;
-
-        .ending-text {
-            font-size: 24px;
-        }
+    .ending-text {
+        font-size: 24px;
     }
 }
 </style>

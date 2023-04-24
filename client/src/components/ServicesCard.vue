@@ -41,7 +41,7 @@ export default {
         'contentData.card_text': {
             immediate: true,
             handler: function () {
-                if (this.contentData && this.contentData.card_text) { // check if card_text is not undefined
+                if (this.contentData && this.contentData.card_text) {
                     this.text = this.contentData.card_text.split("\n");
                 } else {
                     this.text = '';
@@ -86,7 +86,7 @@ export default {
     font-weight: 400;
     line-height: 38px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     margin: 32px;
     max-height: 100%;
 }
@@ -113,13 +113,25 @@ export default {
     z-index: 1;
 }
 
+@media (max-width: 1300px) {
+    .content {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content {
+        line-height: 33px;
+    }
+}
+
 @media (max-width: 767px) {
     .card-body {
         margin: 32px 32px 0 32px;
+    }
 
-        .content {
-            font-size: 28px;
-        }
+    .line img {
+        width: 70%;
     }
 }
 

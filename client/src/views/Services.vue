@@ -23,6 +23,18 @@ export default {
 
 <style>
 .contact {
-    margin-top: 350px;
+    margin-top: 175px;
+}
+
+@media (max-width: 1300px) {
+    .contact {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        margin-top: 50px;
+    }
 }
 </style>
