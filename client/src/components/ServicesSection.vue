@@ -131,9 +131,9 @@ export default {
 }
 
 @media (max-width: 1200px) {
-    .bg-wrapper {
-        display: none;
-    }
+    // .bg-wrapper {
+    //     display: none;
+    // }
     .services-container {
         margin: 0 140px !important;
     }

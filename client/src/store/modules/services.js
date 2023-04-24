@@ -8,7 +8,6 @@ export default {
     }, 
     getters:{
         getServices(state){
-            console.log(state, 'state')
             return mainMixin.methods.translate(state.services);
         }
     },

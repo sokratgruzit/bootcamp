@@ -1,6 +1,6 @@
 <template>
     <div v-if="contentData" class="animate fade-up delay-2">
-        <div class="main-section" v-for="(text, index) in contentData"  :key="index">
+        <div class="main-section" v-for="(text, index) in contentData" :key="index">
             <div class="main-content">
                 <marquee-text :repeat="10" :duration="30" class="line-first">
                     <div class="main-header animate fade-up delay-2">
@@ -14,7 +14,7 @@
                     <img :src="require('@/assets/img/services/SeparateLines.svg')" />
                 </div>
 
-                <div v-if="svgs[index]" v-for="key in svgs[index]" >
+                <div v-if="svgs[index]" v-for="key in svgs[index]">
                     <img v-if="key.url" :src="require(`@/assets/img/services/${key.url}`)" :class="key.classes" />
                 </div>
 
@@ -35,7 +35,6 @@ import MarqueeText from "vue-marquee-text-component";
 export default {
     data() {
         return {
-            svgIncrement:0,
             svgs: [
                 [
                     { url: "RedShape.svg", classes: "brush" },
@@ -74,9 +73,7 @@ export default {
     name: "MainServices",
     computed: {
         contentData() {
-            console.log(this.$store.getters.getServices, 'service kvl')
-
-            if (this.$store.getters.getServices){
+            if (this.$store.getters.getServices) {
                 return this.$store.getters.getServices
                     .filter(item => item.main_text && item.main_title)
             }
@@ -276,22 +273,27 @@ export default {
         top: 95%;
         width: 270px;
     }
+
     .separate-left-line {
         top: 91%;
         width: 270px;
     }
+
     .bg-brush {
         top: -15%;
         width: 450px;
     }
+
     .line-globe {
         top: -16%;
         width: 360px;
     }
+
     .extreme-separate-line {
         top: 88%;
         width: 270px;
     }
+
     .main-text {
         font-size: 34.5px;
     }
@@ -301,6 +303,7 @@ export default {
     .main-text-container {
         margin: 0 100px;
     }
+
     .main-title {
         font-size: 90px !important;
     }
@@ -385,6 +388,7 @@ export default {
         width: 180px;
         top: -3%;
     }
+
     .main-text-container {
         margin: 0 50px;
 
@@ -392,37 +396,44 @@ export default {
             font-size: 24px;
         }
     }
+
     .graphics-lines {
         width: 160px;
     }
+
     .separate-left-line {
         top: 97%;
         width: 200px;
     }
+
     .bg-brush {
         top: -6%;
         width: 300px;
     }
+
     .line-globe {
         top: -8%;
         width: 200px;
     }
+
     .extreme-separate-line {
         top: 96%;
         width: 200px;
     }
+
     .steel-arrows {
         bottom: -142px;
         right: 4px;
         width: 170px;
     }
+
     .main-title {
         font-size: 70px !important;
     }
 }
 
 @media (max-width: 395px) {
-    .separate-lines img{
+    .separate-lines img {
         width: 70%;
     }
 }
